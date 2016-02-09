@@ -21,7 +21,7 @@ def db_conn(db_name):
     # db init: ssh yvx5085@brain.ist.psu.edu -i ~/.ssh/id_rsa -L 1234:localhost:3306
     conn = MySQLdb.connect(host = "127.0.0.1",
                     user = "yang",
-                    port = 3306,
+                    port = 1234,
                     passwd = "05012014",
                     db = db_name)
     return conn
@@ -38,12 +38,21 @@ def read_clean():
     return (keys, text)
 
 # tokenize
-def tokenize():
-    pass
+def tokenize(nlp):
+    keys, text = read_clean()
+    docs = [doc for doc in nlp.pipe(text)]
+    # tokenize `clean` column, and remove double quotes
+    for i, doc in enumerate(docs):
+        tokens = ' '.join(t.orth_ for t in doc if t.tag_ != '\"' and t.tag_ != '``')
+        sql = 'UPDATE utterances SET tokens = %s WHERE observation = %s AND utterID = %s'
+        cur.execute(sql, (tagged, keys[i][0], keys[i][1]))
+        if i % 999 == 0 or i == len(docs)-1:
+            sys.stdout.write('\r{}/{}'.format(i+1, len(docs)))
+            sys.stdout.flush()
+    conn.commit()
 
 # postag
-def postag():
-    nlp = English(parser = False)
+def postag(nlp):
     keys, text = read_clean()
     docs = [doc for doc in nlp.pipe(text)]
     # update the tagged str to table
@@ -119,4 +128,6 @@ def parse_worker(args):
 
 # main
 if __name__ == '__main__':
-    parse()
+    nlp = English(parser = False)
+    # parse()
+    tokenize(nlp)

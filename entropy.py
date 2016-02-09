@@ -19,12 +19,12 @@ def db_conn(db_name):
                     db = db_name)
     return conn
 
-# read clean text from db
-def read_clean():
+# read tokens from db
+def read_tokens():
     conn = db_conn('map')
     cur = conn.cursor()
     # select keys and text
-    sql = 'SELECT observation, utterID, clean FROM utterances'
+    sql = 'SELECT observation, utterID, tokens FROM utterances'
     cur.execute(sql)
     key1, key2, text = list(zip(*cur.fetchall()))
     keys = list(zip(key1, key2))
@@ -32,11 +32,16 @@ def read_clean():
 
 # train model
 def train():
-    keys, text = read_clean()
-    sents = 
+    keys, text = read_tokens()
+    sents = [t.strip().split() for t in tokens]
+    lm = NgramModel(3, sents)
+    return lm
+
+# compute entropy using a trained model
+def compute_entropy(lm):
     pass
 
 
 # main
 if __name__ == '__main__':
-    print('hello')
+    lm = train()
