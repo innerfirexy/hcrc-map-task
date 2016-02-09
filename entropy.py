@@ -33,7 +33,7 @@ def read_tokens():
 # train model
 def train():
     keys, text = read_tokens()
-    sents = [t.strip().split() for t in tokens]
+    sents = [t.strip().split() for t in text]
     lm = NgramModel(3, sents)
     return lm
 
