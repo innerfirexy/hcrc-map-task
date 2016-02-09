@@ -6,6 +6,7 @@
 import MySQLdb
 import glob
 import re
+import sys
 
 # get db connection
 def db_conn(db_name):
@@ -64,5 +65,6 @@ def write2db(data):
 
 # main
 if __name__ == '__main__':
-    # read data
+    # read data and write to db
     data = read_data('data/*.txt')
+    write2db(data)
