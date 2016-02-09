@@ -108,8 +108,9 @@ def parse_worker(args):
             raise e
         else:
             tree_str = str(tree[0]).replace('\n', '')
-            return (obsv, uid, tree_str)
             queue.put(1)
+            return (obsv, uid, tree_str)
+
 
 
 # main
