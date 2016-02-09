@@ -46,7 +46,7 @@ def write2db(data):
     # check if utterances table exists
     sql = 'SHOW TABLES LIKE %s'
     cur.execute(sql, ['utterances'])
-    if cur.fechone() is None:
+    if cur.fetchone() is None:
         sql = 'CREATE TABLE utterances (observation VARCHAR(10), resultSize INT, atts INT, \
             turnID INT, who CHAR(1), raw LONGTEXT, PRIMARY KEY(observation, turnID))'
         cur.execute(sql)
