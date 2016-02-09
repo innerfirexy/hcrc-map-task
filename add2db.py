@@ -78,7 +78,7 @@ def clean():
     fd = FreqDist()
     for text in raw:
         for t in text.strip().split():
-            FreqDist[t] += 1
+            fd[t] += 1
     # print those tokens that end with '--'
     for t in fd.keys():
         if re.match(r'.*-{2,}', t) is not None:
