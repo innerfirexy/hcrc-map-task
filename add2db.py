@@ -89,5 +89,6 @@ def clean():
 # main
 if __name__ == '__main__':
     # read data and write to db
-    data = read_data('data/*.txt')
-    write2db(data)
+    # data = read_data('data/*.txt')
+    # write2db(data)
+    clean()
