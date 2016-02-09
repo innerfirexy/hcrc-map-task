@@ -8,6 +8,8 @@ import glob
 import re
 import sys
 
+from nltk.probability import FreqDist
+
 # get db connection
 def db_conn(db_name):
     # db init: ssh yvx5085@brain.ist.psu.edu -i ~/.ssh/id_rsa -L 1234:localhost:3306
@@ -63,6 +65,26 @@ def write2db(data):
         sys.stdout.write('\r{}/{}'.format(i+1, len(data)))
         sys.stdout.flush()
     conn.commit()
+
+# clean raw text
+def clean():
+    conn = db_conn('map')
+    cur = conn.cursor()
+    # read all raw text
+    sql = 'SELECT raw FROM utterances'
+    cur.execute(sql)
+    raw = (item[0] for item in cur.fetchall())
+    # create FreqDist
+    fd = FreqDist()
+    for text in raw:
+        for t in text.strip().split():
+            FreqDist[t] += 1
+    # print those tokens that end with '--'
+    for t in fd.keys():
+        if re.match(r'.*-{2,}', t) is not None:
+            print(t + '\n')
+
+
 
 # main
 if __name__ == '__main__':
