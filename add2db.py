@@ -7,6 +7,7 @@ import MySQLdb
 import glob
 import re
 import sys
+import pickle
 
 from nltk.probability import FreqDist
 
@@ -50,7 +51,7 @@ def write2db(data):
     cur.execute(sql, ['utterances'])
     if cur.fetchone() is None:
         sql = 'CREATE TABLE utterances (observation VARCHAR(10), resultSize INT, atts INT, \
-            turnID INT, who CHAR(1), raw LONGTEXT, PRIMARY KEY(observation, turnID))'
+            utterID INT, who CHAR(1), raw LONGTEXT, PRIMARY KEY(observation, utterID))'
         cur.execute(sql)
     else:
         sql = 'TRUNCATE TABLE utterances'
@@ -79,10 +80,24 @@ def clean():
     for text in raw:
         for t in text.strip().split():
             fd[t] += 1
+    pickle.dump(fd, open('rawFreqDist.txt', 'wb'))
     # print those tokens that end with '--'
-    for t in fd.keys():
-        if re.match(r'.*-{2,}', t) is not None:
-            print(t + '\n')
+    # for t in fd.keys():
+    #     if re.match(r'.*-{2,}', t) is not None:
+    #         print(t + '\n')
+    # clean each raw text, by removing the tokens that end with '--'
+    sql = 'SELECT observation, utterID, raw FROM utterances'
+    cur.execute(sql)
+    data = cur.fetchall()
+    for i, (obsv, uid, raw) in enumerate(data):
+        raw = raw.strip()
+        clean = ' '.join([t for t in raw.split() if re.match(r'.*-{2,}', t) is None])
+        sql = 'UPDATE utterances SET clean = %s WHERE observation = %s AND utterID = %s'
+        cur.execute(sql, (clean, obsv, uid))
+        if i % 999 == 0 or i == len(data)-1:
+            sys.stdout.write('\r{}/{}'.format(i+1, len(data)))
+            sys.stdout.flush()
+    conn.commit()
 
 
 
