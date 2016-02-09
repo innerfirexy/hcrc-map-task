@@ -62,12 +62,16 @@ def parse():
     sql = 'SELECT observation, utterID, tagged FROM utterances'
     cur.execute(sql)
     data = cur.fetchall()
+    # initialize parser
+    path1 = '/usr/local/Cellar/stanford-parser/3.5.2/libexec/stanford-parser.jar'
+    path2 = '/usr/local/Cellar/stanford-parser/3.5.2/libexec/stanford-parser-3.5.2-models.jar'
+    parser = StanfordParser(path_to_jar = path1, path_to_models_jar = path2, java_options = '-mx8000m')
     # pool and manager
     pool = Pool(multiprocessing.cpu_count())
     manager = Manager()
     queue = manager.Queue()
     # mp
-    args = [(d, queue) for d in data]
+    args = [(d, parser, queue) for d in data]
     result = pool.map_async(parse_worker, args, chunksize=1000)
     while True:
         if result.ready():
@@ -90,12 +94,8 @@ def parse():
 
 # parse_worker
 def parse_worker(args):
-    datum, queue = args
+    datum, parser, queue = args
     obsv, uid, tagged_str = datum
-    # initialize parser
-    path1 = '/usr/local/Cellar/stanford-parser/3.5.2/libexec/stanford-parser.jar'
-    path2 = '/usr/local/Cellar/stanford-parser/3.5.2/libexec/stanford-parser-3.5.2-models.jar'
-    parser = StanfordParser(path_to_jar = path1, path_to_models_jar = path2, java_options = '-mx8000m')
     # parse
     if tagged_str == '':
         return (obsv, uid, '')
