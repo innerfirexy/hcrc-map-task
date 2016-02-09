@@ -4,6 +4,7 @@
 # 2/8/2016
 
 import MySQLdb
+import sys
 
 from spacy.en import English
 
@@ -35,3 +36,15 @@ if __name__ == '__main__':
 
     keys, text = read_clean()
     docs = [doc for doc in nlp.pipe(text)]
+
+    # update the tagged str to table
+    conn = db_conn('map')
+    cur = conn.cursor()
+    for i, doc in enumerate(docs):
+        tagged = ' '.join(token.orth_ + token.pos for token in doc)
+        sql = 'UPDATE utterances SET tagged = %s WHERE observation = %s AND utterID = %s'
+        cur.execute(sql, (tagged, keys[i][0], keys[i][1]))
+        if i % 999 == 0 or i == len(docs)-1:
+            sys.stdout.write('\r{}/{}'.format(i+1, len(docs)))
+            sys.stdout.flush()
+    conn.commit()
