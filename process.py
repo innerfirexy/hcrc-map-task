@@ -37,6 +37,10 @@ def read_clean():
     keys = list(zip(key1, key2))
     return (keys, text)
 
+# tokenize
+def tokenize():
+    pass
+
 # postag
 def postag():
     nlp = English(parser = False)
