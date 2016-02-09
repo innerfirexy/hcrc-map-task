@@ -33,7 +33,12 @@ def read_tokens():
 # train model
 def train():
     keys, text = read_tokens()
-    sents = [t.strip().split() for t in text]
+    sents = []
+    for t in text:
+        if t is None:
+            sents.append([])
+        else:
+            sents.append(t.strip().split())
     lm = NgramModel(3, sents)
     return lm
 
