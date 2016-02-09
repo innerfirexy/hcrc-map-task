@@ -62,6 +62,7 @@ def write2db(data):
             cur.execute(sql, (obsv, rs, atts, j+1, who, msg))
         sys.stdout.write('\r{}/{}'.format(i+1, len(data)))
         sys.stdout.flush()
+    conn.commit()
 
 # main
 if __name__ == '__main__':
