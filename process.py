@@ -41,7 +41,7 @@ if __name__ == '__main__':
     conn = db_conn('map')
     cur = conn.cursor()
     for i, doc in enumerate(docs):
-        tagged = ' '.join(token.orth_ + token.tag_ for token in doc)
+        tagged = ' '.join(token.orth_ + '/' + token.tag_ for token in doc)
         sql = 'UPDATE utterances SET tagged = %s WHERE observation = %s AND utterID = %s'
         cur.execute(sql, (tagged, keys[i][0], keys[i][1]))
         if i % 999 == 0 or i == len(docs)-1:
