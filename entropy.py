@@ -57,13 +57,17 @@ def compute_entropy(lm):
     conn = db_conn('map')
     cur = conn.cursor()
     for i, s in enumerate(sents):
-        try:
-            e = lm.entropy(s)
-        except Exception as e:
-            print(s)
-            raise e
+        if len(s) == 0:
+            ent = None
+        else:
+            try:
+                ent = lm.entropy(s)
+                ent = str(ent)
+            except Exception as e:
+                print(s)
+                raise e
         sql = 'UPDATE utterances SET ent = %s WHERE observation = %s AND utterID = %s'
-        cur.execute(sql, (str(e), keys[i][0], keys[i][1]))
+        cur.execute(sql, (ent, keys[i][0], keys[i][1]))
         if i % 999 == 0 or i == len(sents)-1:
             sys.stdout.write('\r{}/{}'.format(i+1, len(sents)))
             sys.stdout.flush()
@@ -72,5 +76,6 @@ def compute_entropy(lm):
 
 # main
 if __name__ == '__main__':
-    lm = train()
-    # compute_entropy(lm)
+    # lm = train()
+    lm = pickle.load(open('lm.txt', 'rb'))
+    compute_entropy(lm)
