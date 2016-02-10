@@ -16,7 +16,7 @@ def db_conn(db_name):
     # db init: ssh yvx5085@brain.ist.psu.edu -i ~/.ssh/id_rsa -L 1234:localhost:3306
     conn = MySQLdb.connect(host = "127.0.0.1",
                     user = "yang",
-                    port = 3306,
+                    port = 1234,
                     passwd = "05012014",
                     db = db_name)
     return conn
@@ -74,9 +74,46 @@ def compute_entropy(lm):
             sys.stdout.flush()
     conn.commit()
 
+# compute the entropy for the first 100 sentences of each conversation
+def compute_entropy_first100():
+    conn = db_conn('map')
+    cur = conn.cursor()
+    # select all unique observation
+    sql = 'SELECT DISTINCT(observation) FROM utterances'
+    cur.execute(sql)
+    unique_observs = [t[0] for t in cur.fetchall()]
+    # for each obsv, compute the entropy of its first 100 sentences (or less),
+    # using the corresponding sentences from other obsvs to train the language model
+    for i, obsv in enumerate(unique_observs):
+        # select maximum utterID
+        cur.execute('SELECT MAX(utterID) FROM utterances WHERE observation = %s', [obsv])
+        max_uid = cur.fetchone()[0]
+        for j in range(1, min(100, max_uid)+1):
+            # select text for train
+            sql = 'SELECT tokens FROM utterances WHERE observation != %s AND utterID = %s'
+            cur.execute(sql, (obsv, j))
+            train_text = [t[0].split() for t in cur.fetchall()]
+            # train the model
+            lm = NgramModel(3, train_text)
+            # compute the entropy and update
+            sql = 'SELECT tokens FROM utterances WHERE observation = %s AND utterID = %s'
+            cur.execute(sql, (obsv, j))
+            test_text = cur.fetchone()[0].split()
+            if len(test_text) == 0:
+                ent = None
+            else:
+                ent = lm.entropy(test_text)
+            sql = 'UPDATE utterances SET ent = %s WHERE observation = %s AND utterID = %s'
+            cur.execute(sql, (ent, obsv, j))
+        # print progress
+        sys.stdout.write('\r{}/{} conversation done'.format(i+1, len(unique_observs)))
+        sys.stdout.flush()
+        conn.commit()
+
 
 # main
 if __name__ == '__main__':
     # lm = train()
-    lm = pickle.load(open('lm.txt', 'rb'))
-    compute_entropy(lm)
+    # lm = pickle.load(open('lm.txt', 'rb'))
+    # compute_entropy(lm)
+    compute_entropy_first100()
