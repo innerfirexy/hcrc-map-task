@@ -45,7 +45,7 @@ def tokenize(nlp):
     conn = db_conn('map')
     cur = conn.cursor()
     for i, doc in enumerate(docs):
-        tokens = ' '.join(t.orth_ for t in doc if t.tag_ != '\"' and t.tag_ != '``')
+        tokens = ' '.join(t.orth_ for t in doc if t.tag_ != '"' and t.tag_ != '``')
         sql = 'UPDATE utterances SET tokens = %s WHERE observation = %s AND utterID = %s'
         cur.execute(sql, (tokens, keys[i][0], keys[i][1]))
         if i % 999 == 0 or i == len(docs)-1:
