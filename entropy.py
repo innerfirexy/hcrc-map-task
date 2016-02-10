@@ -4,6 +4,7 @@
 # 2/9/2016
 
 import MySQLdb
+import pickle
 
 from nltk_legacy.ngram import NgramModel
 from nltk.probability import LidstoneProbDist
@@ -14,7 +15,7 @@ def db_conn(db_name):
     # db init: ssh yvx5085@brain.ist.psu.edu -i ~/.ssh/id_rsa -L 1234:localhost:3306
     conn = MySQLdb.connect(host = "127.0.0.1",
                     user = "yang",
-                    port = 3306,
+                    port = 1234,
                     passwd = "05012014",
                     db = db_name)
     return conn
@@ -40,6 +41,7 @@ def train():
         else:
             sents.append(t.strip().split())
     lm = NgramModel(3, sents)
+    pickle.dump(lm, open('lm.txt', 'wb'))
     return lm
 
 # compute entropy using a trained model
@@ -55,7 +57,11 @@ def compute_entropy(lm):
     conn = db_conn('map')
     cur = conn.cursor()
     for i, s in enumerate(sents):
-        e = lm.entropy(s)
+        try:
+            e = lm.entropy(s)
+        except Exception as e:
+            print(s)
+            raise e
         sql = 'UPDATE utterances SET ent = %s WHERE observation = %s AND utterID = %s'
         cur.execute(sql, (str(e), keys[i][0], keys[i][1]))
         if i % 999 == 0 or i == len(sents)-1:
@@ -67,4 +73,4 @@ def compute_entropy(lm):
 # main
 if __name__ == '__main__':
     lm = train()
-    compute_entropy(lm)
+    # compute_entropy(lm)
