@@ -42,6 +42,8 @@ def tokenize(nlp):
     keys, text = read_clean()
     docs = [doc for doc in nlp.pipe(text)]
     # tokenize `clean` column, and remove double quotes
+    conn = db_conn('map')
+    cur = conn.cursor()
     for i, doc in enumerate(docs):
         tokens = ' '.join(t.orth_ for t in doc if t.tag_ != '\"' and t.tag_ != '``')
         sql = 'UPDATE utterances SET tokens = %s WHERE observation = %s AND utterID = %s'
