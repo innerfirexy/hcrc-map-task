@@ -27,7 +27,7 @@ def texttiling():
     cur.execute(sql)
     unique_observs = [t[0] for t in cur.fetchall()]
     # for each obsv
-    for i, obsv in enumerate(unique_observs[:1]):
+    for i, obsv in enumerate(unique_observs):
         sql = 'SELECT utterID, tagged FROM utterances WHERE observation = %s AND tagged <> ""'
         cur.execute(sql, [obsv])
         utter_id, tagged = zip(*cur.fetchall())
@@ -37,7 +37,7 @@ def texttiling():
         except Exception as e:
             raise e
         else:
-            i = 0
+            uid_idx = 0
             for j, seg in enumerate(segmented_text):
                 topic_id = j+1
                 sents = [s for s in seg.split('\n\n\n\t') if s != '']
@@ -45,8 +45,8 @@ def texttiling():
                     in_topic_id = k+1
                     sql = 'UPDATE utterances SET topicID = %s, inTopicID = %s \
                         WHERE observation = %s AND utterID = %s'
-                    cur.execute(sql, (topic_id, in_topic_id, obsv, utter_id[i]))
-                    i += 1
+                    cur.execute(sql, (topic_id, in_topic_id, obsv, utter_id[uid_idx]))
+                    uid_idx += 1
                     conn.commit()
             sys.stdout.write('\r{}/{}'.format(i+1, len(unique_observs)))
             sys.stdout.flush()
