@@ -130,6 +130,6 @@ def parse_worker(args):
 
 # main
 if __name__ == '__main__':
-    nlp = English(parser = False)
-    # parse()
-    tokenize(nlp)
+    # nlp = English(parser = False)
+    parse()
+    # tokenize(nlp)
