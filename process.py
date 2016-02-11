@@ -167,8 +167,8 @@ def add_topicRole():
     for j, obsv in enumerate(unique_observs):
         sql = 'SELECT utterID, who, topicID FROM utterances WHERE observation = %s'
         cur.execute(sql, [obsv])
-        topic_id = (t[0] for t in cur.fetchall())
-        for i, tpc_id in enumerate(list(set(topic_id))):
+        topic_id = list(set(t[0] for t in cur.fetchall()))
+        for i, tpc_id in enumerate(topic_id):
             if tpc_id == 1:
                 sql = 'UPDATE utterances SET topicRole = %s WHERE observation = %s AND topicID = %s'
                 cur.execute(sql, ('NA', obsv, tpc_id))
