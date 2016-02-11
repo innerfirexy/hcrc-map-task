@@ -164,12 +164,42 @@ def add_topicRole():
     cur.execute(sql)
     unique_observs = [t[0] for t in cur.fetchall()]
     # for each obsv
-    for obsv in unique_observs:
+    for j, obsv in enumerate(unique_observs):
         sql = 'SELECT utterID, who, topicID FROM utterances WHERE observation = %s'
         cur.execute(sql, [obsv])
-        utter_id, who, topic_id = zip(*cur.fetchall())
-
-    pass
+        topic_id = (t[0] for t in cur.fetchall())
+        for i, tpc_id in enumerate(list(set(topic_id))):
+            if tpc_id == 1:
+                sql = 'UPDATE utterances SET topicRole = %s WHERE observation = %s AND topicID = %s'
+                cur.execute(sql, ('NA', obsv, tpc_id))
+            else:
+                # select last turn id
+                last_tpc_id = topic_id[i-1]
+                sql = 'SELECT MAX(turnID) FROM utterances WHERE observation = %s AND topicID = %s'
+                cur.execute(sql, (obsv, last_tpc_id))
+                last_turn_id = cur.fetchone()[0]
+                # select current turn id and who
+                sql = 'SELECT turnID, who FROM utterances WHERE observation = %s AND topicID = %s LIMIT 1'
+                cur.execute(sql, (obsv, tpc_id))
+                turn_id, who = cur.fetchone()
+                # check whether the boundary is within-turn or between-turn
+                if turn_id == last_turn_id:
+                    sql = 'UPDATE utterances SET topicRole = %s WHERE observation = %s AND topicID = %s AND who = %s'
+                    cur.execute(sql, ('initiator', obsv, tpc_id, who))
+                    sql = 'UPDATE utterances SET topicRole = %s WHERE observation = %s AND topicID = %s AND who != %s'
+                    cur.execute(sql, ('responder', obsv, tpc_id, who))
+                else:
+                    # select the first `who` whose tokenNum is above 5
+                    sql = 'SELECT who FROM utterances WHERE observation = %s AND topicID = %s AND tokenNum > %s LIMIT 1'
+                    cur.execute(sql, (obsv, tpc_id, 5))
+                    initiator = cur.fetchone()[0]
+                    sql = 'UPDATE utterances SET topicRole = %s WHERE observation = %s AND topicID = %s AND who = %s'
+                    cur.execute(sql, ('initiator', obsv, tpc_id, initiator))
+                    sql = 'UPDATE utterances SET topicRole = %s WHERE observation = %s AND topicID = %s AND who != %s'
+                    cur.execute(sql, ('responder', obsv, tpc_id, initiator))
+        # print process
+        sys.stdout.write('\r{}/{}'.format(j+1, len(unique_observs)))
+        sys.stdout.flush()
 
 # add tokenNum
 def add_tokenNum():
@@ -191,4 +221,5 @@ if __name__ == '__main__':
     # parse()
     # tokenize(nlp)
     # add_turnid()
-    add_tokenNum()
+    # add_tokenNum()
+    add_topicRole()
