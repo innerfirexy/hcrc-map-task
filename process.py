@@ -197,6 +197,7 @@ def add_topicRole():
                     cur.execute(sql, ('initiator', obsv, tpc_id, initiator))
                     sql = 'UPDATE utterances SET topicRole = %s WHERE observation = %s AND topicID = %s AND who != %s'
                     cur.execute(sql, ('responder', obsv, tpc_id, initiator))
+            conn.commit()
         # print process
         sys.stdout.write('\r{}/{}'.format(j+1, len(unique_observs)))
         sys.stdout.flush()
