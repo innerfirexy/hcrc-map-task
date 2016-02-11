@@ -176,6 +176,7 @@ def add_tokenNum():
     conn = db_conn('map')
     cur = conn.cursor()
     sql = 'SELECT observation, utterID, tokens FROM utterances'
+    cur.execute(sql)
     key1, key2, tokens_str = zip(*cur.fetchall())
     for i, ts in enumerate(tokens_str):
         tn = len(ts.split())
