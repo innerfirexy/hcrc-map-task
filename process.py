@@ -126,10 +126,39 @@ def parse_worker(args):
             queue.put(1)
             return (obsv, uid, tree_str)
 
+# add turnID
+def add_turnid():
+    conn = db_conn('map')
+    cur = conn.cursor()
+    # select all observation
+    sql = 'SELECT DISTINCT(observation) FROM utterances'
+    cur.execute(sql)
+    unique_observs = [t[0] for t in cur.fetchall()]
+    # for each obsv
+    for obsv in unique_observs:
+        sql = 'SELECT utterID, who FROM utterances WHERE observation = %s'
+        cur.execute(sql, [obsv])
+        utter_id, who = zip(*cur.fetchall())
+        # generate turn_id from the sequence of who
+        turn_id = []
+        for i, w in enumerate(who):
+            if i == 0:
+                turn_id.append(1)
+            else:
+                if w == who[i-1]:
+                    turn_id.append(turn_id[-1])
+                else:
+                    turn_id.append(turn_id[-1]+1)
+        # update
+        for i, t_id in enumerate(turn_id):
+            sql = 'UPDATE utterances SET turnID = %s WHERE observation = %s AND utterID = %s'
+            cur.execute(sql, (t_id, obsv, utter_id[i]))
+        conn.commit()
 
 
 # main
 if __name__ == '__main__':
     # nlp = English(parser = False)
-    parse()
+    # parse()
     # tokenize(nlp)
+    add_turnid()
