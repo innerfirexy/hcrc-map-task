@@ -165,7 +165,7 @@ def add_topicRole():
     unique_observs = [t[0] for t in cur.fetchall()]
     # for each obsv
     for j, obsv in enumerate(unique_observs):
-        sql = 'SELECT topicID FROM utterances WHERE observation = %s AND WHERE topicID IS NOT NULL'
+        sql = 'SELECT topicID FROM utterances WHERE observation = %s AND topicID IS NOT NULL'
         cur.execute(sql, [obsv])
         topic_id = list(set(t[0] for t in cur.fetchall()))
         for i, tpc_id in enumerate(topic_id):
