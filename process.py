@@ -155,10 +155,39 @@ def add_turnid():
             cur.execute(sql, (t_id, obsv, utter_id[i]))
         conn.commit()
 
+# add topicRole
+def add_topicRole():
+    conn = db_conn('map')
+    cur = conn.cursor()
+    # select all observation
+    sql = 'SELECT DISTINCT(observation) FROM utterances'
+    cur.execute(sql)
+    unique_observs = [t[0] for t in cur.fetchall()]
+    # for each obsv
+    for obsv in unique_observs:
+        sql = 'SELECT utterID, who, topicID FROM utterances WHERE observation = %s'
+        cur.execute(sql, [obsv])
+        utter_id, who, topic_id = zip(*cur.fetchall())
+
+    pass
+
+# add tokenNum
+def add_tokenNum():
+    conn = db_conn('map')
+    cur = conn.cursor()
+    sql = 'SELECT observation, utterID, tokens FROM utterances'
+    key1, key2, tokens_str = zip(*cur.fetchall())
+    for i, ts in enumerate(tokens_str):
+        tn = len(ts.split())
+        sql = 'UPDATE utterances SET tokenNum = %s WHERE observation = %s AND utterID = %s'
+        cur.execute(sql, (tn, key1[i], key2[i]))
+    conn.commit()
+
 
 # main
 if __name__ == '__main__':
     # nlp = English(parser = False)
     # parse()
     # tokenize(nlp)
-    add_turnid()
+    # add_turnid()
+    add_tokenNum()
