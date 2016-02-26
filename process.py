@@ -239,7 +239,7 @@ def compute_tdbf():
         sql = 'UPDATE utterances SET td = %s, bf = %s WHERE observation = %s AND utterID = %s'
         cur.execute(sql, (td, bf, key1[i], key2[i]))
         if (i % 999 == 0 and i > 0) or i == len(parsed_str)-1:
-            sys.stdout.write(i+1, len(parsed_str))
+            sys.stdout.write('\r{}/{} updated'.format(i+1, len(parsed_str)))
             sys.stdout.flush()
     conn.commit()
 
