@@ -6,6 +6,7 @@
 import MySQLdb
 import sys
 import time
+import numpy
 
 from spacy.en import English
 
@@ -14,6 +15,7 @@ from multiprocessing import Pool, Manager
 
 from nltk.tag.util import str2tuple
 from nltk.parse.stanford import StanfordParser
+from nltk.tree import *
 
 
 # get db connection
@@ -219,6 +221,28 @@ def add_tokenNum():
         cur.execute(sql, (tn, key1[i], key2[i]))
     conn.commit()
 
+# compute td and bf columns
+def compute_tdbf():
+    conn = db_conn('map')
+    cur = conn.cursor()
+    # select data
+    sql = 'SELECT observation, utterID, parsed FROM utterances WHERE tokenNum > 0'
+    cur.execute(sql)
+    key1, key2, parsed_str = zip(*cur.fetchall())
+    for i, ps in enumerate(parsed_str):
+        tree = Tree.fromstring(ps)
+        sub_tree = tree[0] if tree.label() == 'ROOT' else tree
+        # compute td bf
+        td = sub_tree.height()
+        bf = numpy.mean([len(t) for t in sub_tree.subtrees()])
+        # update
+        sql = 'UPDATE utterances SET td = %s, bf = %s WHERE observation = %s AND utterID = %s'
+        cur.execute(sql, (td, bf, key1[i], key2[i]))
+        if (i % 999 == 0 and i > 0) or i == len(parsed_str)-1:
+            sys.stdout.write(i+1, len(parsed_str))
+            sys.stdout.flush()
+    conn.commit()
+
 
 # main
 if __name__ == '__main__':
@@ -227,4 +251,5 @@ if __name__ == '__main__':
     # tokenize(nlp)
     # add_turnid()
     # add_tokenNum()
-    add_topicRole()
+    # add_topicRole()
+    compute_tdbf()
