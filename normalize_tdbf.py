@@ -13,7 +13,7 @@ def db_conn(db_name):
     # db init: ssh yvx5085@brain.ist.psu.edu -i ~/.ssh/id_rsa -L 1234:localhost:3306
     conn = MySQLdb.connect(host = "127.0.0.1",
                     user = "yang",
-                    port = 1234,
+                    port = 3306,
                     passwd = "05012014",
                     db = db_name)
     return conn
@@ -44,7 +44,29 @@ def create_dict():
     # save
     pickle.dump(dic_mean, open('tdbf_mean.txt', 'wb'))
 
+# update tdAdj and bfAdj columns
+def update_adj():
+    conn = db_conn('map')
+    cur = conn.cursor()
+    # read dic_mean
+    dic_mean = pickle.load(open('tdbf_mean.txt', 'rb'))
+    # select data
+    sql = 'SELECT observation, utterID, tokenNum, td, bf FROM utterances WHERE tokenNum > 0'
+    cur.execute(sql)
+    data = cur.fetchall()
+    # update
+    for i, (obsv, uid, key, td, bf) in enumerate(data):
+        td_adj = td / dic_mean[key][0]
+        bf_adj = bf / dic_mean[key][1]
+        sql = 'UPDATE utterances SET tdAdj = %s, bfAdj = %s WHERE observation = %s AND utterID = %s'
+        cur.execute(sql, (td_adj, bf_adj, obsv, uid))
+        if (i % 999 == 0 and i > 0) or i == len(data)-1:
+            sys.stdout.write('\r{}/{} updated'.format(i+1, len(data)))
+            sys.stdout.flush()
+    conn.commit()
+
 
 # main
 if __name__ == '__main__':
-    create_dict()
+    # create_dict()
+    update_adj()
