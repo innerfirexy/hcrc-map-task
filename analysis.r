@@ -9,8 +9,8 @@ library(ggplot2)
 
 # ssh yvx5085@brain.ist.psu.edu -i ~/.ssh/id_rsa -L 1234:localhost:3306
 conn = dbConnect(MySQL(), host = '127.0.0.1', user = 'yang', port = 1234, password = "05012014", dbname = 'map')
-sql = 'SELECT observation, resultSize, utterID, who, ent, topicID, inTopicID, topicRole FROM utterances
-    WHERE ent IS NOT NULL AND topicRole != "NA" AND topicRole IS NOT NULL'
+sql = 'SELECT observation, resultSize, utterID, who, tokenNum, ent, td, bf, tdAdj, bfAdj, topicID, inTopicID, topicRole FROM utterances
+    WHERE tokenNum > 0 AND topicRole != "NA" AND topicRole IS NOT NULL'
 df = dbGetQuery(conn, sql)
 
 summary(lmer(ent ~ utterID + (1|observation), df))
@@ -44,6 +44,37 @@ p2 = ggplot(subset(df, inTopicID <= 10), aes(x = inTopicID, y = ent, group = top
     stat_summary(fun.data = mean_cl_boot, geom = 'ribbon', aes(fill = topicRole), alpha = .5) +
     scale_x_continuous(breaks = 1:10)
 plot(p2)
+
+
+# td vs inTopicID gruoped by role
+p.td = ggplot(subset(df, inTopicID <= 10), aes(x = inTopicID, y = td, group = topicRole)) +
+    stat_summary(fun.y = mean, geom = 'line', aes(lty = topicRole)) +
+    stat_summary(fun.data = mean_cl_boot, geom = 'ribbon', aes(fill = topicRole), alpha = .5) +
+    scale_x_continuous(breaks = 1:10)
+plot(p.td)
+
+# bf vs inTopicID
+p.bf = ggplot(subset(df, inTopicID <= 10), aes(x = inTopicID, y = bf, group = topicRole)) +
+    stat_summary(fun.y = mean, geom = 'line', aes(lty = topicRole)) +
+    stat_summary(fun.data = mean_cl_boot, geom = 'ribbon', aes(fill = topicRole), alpha = .5) +
+    scale_x_continuous(breaks = 1:10)
+plot(p.bf)
+
+
+
+# tdAdj vs inTopicID grouped by role
+p.tdAdj = ggplot(subset(df, inTopicID <= 10), aes(x = inTopicID, y = tdAdj, group = topicRole)) +
+    stat_summary(fun.y = mean, geom = 'line', aes(lty = topicRole)) +
+    stat_summary(fun.data = mean_cl_boot, geom = 'ribbon', aes(fill = topicRole), alpha = .5) +
+    scale_x_continuous(breaks = 1:10)
+plot(p.tdAdj)
+
+# bfAdj vs inTopicID grouped by role
+p.bfAdj = ggplot(subset(df, inTopicID <= 10), aes(x = inTopicID, y = bfAdj, group = topicRole)) +
+    stat_summary(fun.y = mean, geom = 'line', aes(lty = topicRole)) +
+    stat_summary(fun.data = mean_cl_boot, geom = 'ribbon', aes(fill = topicRole), alpha = .5) +
+    scale_x_continuous(breaks = 1:10)
+plot(p.bfAdj)
 
 
 ### explore how the convergence of entropy is correlated with resultSize
