@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nite:root xmlns:nite="http://nite.sourceforge.net/" id="tu.q6ec4.f">
+<sil id="q6ec4f.1" start="0.0000" end="3.2767"/>
+<noi id="q6ec4f.2" start="3.2767" end="3.3853" type="lipsmack"/>
+<tu id="q6ec4f.3" start="3.3853" end="3.8527">right</tu>
+<sil id="q6ec4f.4" start="3.8527" end="10.3958"/>
+<noi id="q6ec4f.5" start="10.3958" end="10.4386" type="lipsmack"/>
+<sil id="q6ec4f.6" start="10.4386" end="10.4962"/>
+<tu id="q6ec4f.7" start="10.4962" end="10.7959" utt="4">right</tu>
+<noi id="q6ec4f.9" start="10.7960" end="11.0760" type="breath"/>
+<noi id="q6ec4f.10" start="11.0760" end="11.1665" type="nonvocal"/>
+<sil id="q6ec4f.11" start="11.1665" end="13.4886"/>
+<noi id="q6ec4f.12" start="13.4887" end="13.5496" type="lipsmack"/>
+<tu id="q6ec4f.13" start="13.5496" end="13.9004" utt="6">yeah</tu>
+<sil id="q6ec4f.15" start="13.9004" end="17.9584"/>
+<tu id="q6ec4f.16" start="17.9584" end="18.3487" utt="8">right</tu>
+<noi id="q6ec4f.18" start="18.3487" end="18.5299" type="outbreath"/>
+<sil id="q6ec4f.19" start="18.5299" end="23.1378"/>
+<tu id="q6ec4f.20" start="23.1379" end="23.2787" utt="10">go</tu>
+<tu id="q6ec4f.21" start="23.2787" end="23.5826" utt="10">along</tu>
+<tu id="q6ec4f.22" start="23.5826" end="23.6517" utt="10">the</tu>
+<tu id="q6ec4f.23" start="23.6517" end="23.9720" utt="10">bottom</tu>
+<tu id="q6ec4f.24" start="23.9720" end="24.0683">of the</tu>
+<tu id="q6ec4f.26" start="24.0684" end="24.3755" utt="10">diamond</tu>
+<tu id="q6ec4f.26.1" start="24.3755" end="24.6654" utt="10">mine</tu>
+<sil id="q6ec4f.28" start="24.6654" end="25.2270"/>
+<noi id="q6ec4f.29" start="25.2270" end="25.4427" type="nonvocal"/>
+<sil id="q6ec4f.30" start="25.4427" end="27.9147"/>
+<tu id="q6ec4f.31" start="27.9148" end="28.2162" utt="12">nope</tu>
+<sil id="q6ec4f.33" start="28.2162" end="44.5106"/>
+<noi id="q6ec4f.34" start="44.5106" end="44.5551" type="lipsmack"/>
+<sil id="q6ec4f.35" start="44.5551" end="44.6506"/>
+<tu id="q6ec4f.36" start="44.6506" end="44.7988">right</tu>
+<tu id="q6ec4f.37" start="44.7988" end="44.9651" utt="14">keep</tu>
+<tu id="q6ec4f.38" start="44.9651" end="45.1726" utt="14">going</tu>
+<tu id="q6ec4f.39" start="45.1726" end="45.4460" utt="14">right</tu>
+<noi id="q6ec4f.41" start="45.4460" end="45.7276" type="outbreath"/>
+<sil id="q6ec4f.42" start="45.7277" end="48.2639"/>
+<tu id="q6ec4f.43" start="48.2639" end="48.6657" utt="16">right</tu>
+<noi id="q6ec4f.45" start="48.6657" end="48.8502" type="breath"/>
+<sil id="q6ec4f.46" start="48.8502" end="56.5544"/>
+<tu id="q6ec4f.47" start="56.5544" end="56.6672" utt="18">right</tu>
+<tu id="q6ec4f.48" start="56.6672" end="56.7899" utt="18">up</tu>
+<tu id="q6ec4f.49" start="56.7899" end="56.9118">to the</tu>
+<tu id="q6ec4f.51" start="56.9118" end="57.2914" utt="18">top</tu>
+<noi id="q6ec4f.53" start="57.2914" end="57.3803" type="lowamp"/>
+<sil id="q6ec4f.54" start="57.3803" end="57.7023"/>
+<tu id="q6ec4f.55" start="57.7023" end="57.8489" utt="20">how</tu>
+<tu id="q6ec4f.56" start="57.8489" end="58.0902" utt="20">far</tu>
+<tu id="q6ec4f.57" start="58.0902" end="58.3726" utt="20">up</tu>
+<sil id="q6ec4f.59" start="58.3726" end="60.8537"/>
+<tu id="q6ec4f.60" start="60.8537" end="61.2193" utt="22">right</tu>
+<noi id="q6ec4f.62" start="61.2193" end="61.3674" type="outbreath"/>
+<sil id="q6ec4f.63" start="61.3675" end="66.3938"/>
+<tu id="q6ec4f.64" start="66.3938" end="66.7001" utt="24">yeah</tu>
+<sil id="q6ec4f.66" start="66.7001" end="76.0512"/>
+<noi id="q6ec4f.67" start="76.0512" end="76.3164" type="lipsmack"/>
+<tu id="q6ec4f.68" start="76.3164" end="76.6804" utt="26">right</tu>
+<noi id="q6ec4f.69" start="76.6804" end="76.8434" type="outbreath"/>
+<sil id="q6ec4f.70" start="76.8434" end="80.9442"/>
+<tu id="q6ec4f.71" start="80.9442" end="81.3066" utt="28">right</tu>
+<noi id="q6ec4f.73" start="81.3066" end="81.5306" type="breath"/>
+<sil id="q6ec4f.74" start="81.5306" end="86.4432"/>
+<tu id="q6ec4f.75" start="86.4432" end="86.7858" utt="30">mmhmm</tu>
+<noi id="q6ec4f.77" start="86.7858" end="86.8599" type="lowamp"/>
+<sil id="q6ec4f.78" start="86.8599" end="87.5977"/>
+<noi id="q6ec4f.79" start="87.5977" end="87.6883" type="lipsmack"/>
+<tu id="q6ec4f.80" start="87.6883" end="87.8876" utt="32">quite</tu>
+<tu id="q6ec4f.81" start="87.8876" end="88.1066" utt="32">far</tu>
+<tu id="q6ec4f.82" start="88.1066" end="88.3718" utt="32">below</tu>
+<noi id="q6ec4f.84" start="88.3718" end="88.4607" type="lowamp"/>
+<sil id="q6ec4f.85" start="88.4607" end="88.8840"/>
+<tu id="q6ec4f.86" start="88.8840" end="89.2429" utt="34">yeah</tu>
+<sil id="q6ec4f.88" start="89.2430" end="93.3471"/>
+<tu id="q6ec4f.89" start="93.3471" end="93.7341" utt="36">right</tu>
+<noi id="q6ec4f.91" start="93.7341" end="94.1507" type="breath"/>
+<sil id="q6ec4f.92" start="94.1507" end="96.6392"/>
+<tu id="q6ec4f.93" start="96.6392" end="96.7462" utt="38">go</tu>
+<tu id="q6ec4f.94" start="96.7463" end="96.9999" utt="38">round</tu>
+<tu id="q6ec4f.95" start="96.9999" end="97.1498" utt="38">them</tu>
+<tu id="q6ec4f.96" start="97.1498" end="97.2419" utt="38">to</tu>
+<tu id="q6ec4f.97" start="97.2420" end="97.3408" utt="38">the</tu>
+<tu id="q6ec4f.98" start="97.3408" end="97.5878" utt="38">right</tu>
+<noi id="q6ec4f.100" start="97.5879" end="97.7756" type="inbreath"/>
+<sil id="q6ec4f.101" start="97.7756" end="99.5065"/>
+<tu id="q6ec4f.102" start="99.5065" end="99.7017">on</tu>
+<tu id="q6ec4f.103" start="99.7017" end="99.7419" utt="40">the</tu>
+<tu id="q6ec4f.104" start="99.7420" end="100.2015" utt="40">left</tu>
+<sil id="q6ec4f.105" start="100.2015" end="101.9891"/>
+<noi id="q6ec4f.106" start="101.9892" end="102.5821" type="laugh"/>
+<sil id="q6ec4f.107" start="102.5821" end="102.6661"/>
+<noi id="q6ec4f.108" start="102.6661" end="103.1205" type="inbreath"/>
+<sil id="q6ec4f.109" start="103.1206" end="103.1815"/>
+<tu id="q6ec4f.110" start="103.1815" end="103.4977" utt="42">right</tu>
+<noi id="q6ec4f.112" start="103.4977" end="103.5949" type="lowamp"/>
+<sil id="q6ec4f.113" start="103.5949" end="108.1206"/>
+<tu id="q6ec4f.114" start="108.1206" end="108.3108" utt="44">no</tu>
+<tu id="q6ec4f.116" start="108.3108" end="108.4335" utt="44">i</tu>
+<tu id="q6ec4f.117" start="108.4335" end="108.5504" utt="44">don't</tu>
+<tu id="q6ec4f.118" start="108.5504" end="108.7085" utt="44">have</tu>
+<tu id="q6ec4f.119" start="108.7085" end="108.9300" utt="44">that</tu>
+<noi id="q6ec4f.121" start="108.9300" end="109.1515" type="outbreath"/>
+<sil id="q6ec4f.122" start="109.1516" end="112.8909"/>
+<noi id="q6ec4f.123" start="112.8909" end="113.2071" type="lipsmack"/>
+<sil id="q6ec4f.124" start="113.2071" end="114.1952"/>
+<tu id="q6ec4f.125" start="114.1952" end="114.6547" utt="46">nope</tu>
+<sil id="q6ec4f.126" start="114.6547" end="114.8638"/>
+<noi id="q6ec4f.127" start="114.8638" end="115.2772" type="breath"/>
+<sil id="q6ec4f.128" start="115.2772" end="117.2568"/>
+<noi id="q6ec4f.129" start="117.2568" end="117.2996" type="lipsmack"/>
+<sil id="q6ec4f.130" start="117.2996" end="117.4511"/>
+<tu id="q6ec4f.131" start="117.4511" end="118.0193" utt="48">rapids</tu>
+<noi id="q6ec4f.133" start="118.0193" end="118.2993" type="lowamp"/>
+<sil id="q6ec4f.134" start="118.2993" end="124.1343"/>
+<tu id="q6ec4f.135" start="124.1343" end="124.5855" utt="50">yeah</tu>
+<sil id="q6ec4f.137" start="124.5855" end="124.8984"/>
+<tu id="q6ec4f.138" start="124.8984" end="125.2080" utt="52">mmhmm</tu>
+<sil id="q6ec4f.140" start="125.2081" end="133.8922"/>
+<tu id="q6ec4f.141" start="133.8922" end="134.2446" utt="54">mmhmm</tu>
+<sil id="q6ec4f.142" start="134.2446" end="135.5786"/>
+<tu id="q6ec4f.143" start="135.5786" end="135.9706" utt="56">right</tu>
+<noi id="q6ec4f.145" start="135.9706" end="136.0875" type="lowamp"/>
+<sil id="q6ec4f.146" start="136.0875" end="137.1448"/>
+<tu id="q6ec4f.147" start="137.1448" end="137.5862" utt="58">right</tu>
+<sil id="q6ec4f.149" start="137.5862" end="140.0615"/>
+<noi id="q6ec4f.150" start="140.0615" end="140.1669" type="nonvocal"/>
+<sil id="q6ec4f.151" start="140.1669" end="141.5734"/>
+<noi id="q6ec4f.152" start="141.5734" end="141.7233" type="phongesture"/>
+<sil id="q6ec4f.153" start="141.7233" end="141.8747"/>
+<tu id="q6ec4f.155" start="141.8748" end="142.0856" utt="60">go</tu>
+<tu id="q6ec4f.156" start="142.0856" end="142.2617" utt="60">along</tu>
+<tu id="q6ec4f.157" start="142.2618" end="142.3227" utt="60">the</tu>
+<tu id="q6ec4f.158" start="142.3227" end="142.5599" utt="60">top</tu>
+<tu id="q6ec4f.159" start="142.5599" end="142.6158" utt="60">of</tu>
+<tu id="q6ec4f.160" start="142.6158" end="142.7047" utt="60">the</tu>
+<tu id="q6ec4f.161" start="142.7048" end="142.8646" utt="60">white</tu>
+<tu id="q6ec4f.162" start="142.8646" end="143.1708" utt="60">water</tu>
+<tu id="q6ec4f.163" start="143.1709" end="143.3834" utt="60">then</tu>
+<sil id="q6ec4f.165" start="143.3834" end="144.6556"/>
+<tu id="q6ec4f.166" start="144.6556" end="145.0393" utt="62">right</tu>
+<noi id="q6ec4f.168" start="145.0393" end="145.1842" type="outbreath"/>
+<sil id="q6ec4f.169" start="145.1842" end="151.2184"/>
+<noi id="q6ec4f.170" start="151.2184" end="151.2942" type="lipsmack"/>
+<tu id="q6ec4f.171" start="151.2942" end="151.3881" utt="64">a</tu>
+<tu id="q6ec4f.172" start="151.3881" end="151.6977" utt="64">manned</tu>
+<tu id="q6ec4f.173" start="151.6977" end="152.0650" utt="64">fort</tu>
+<noi id="q6ec4f.174" start="152.0650" end="152.1506" type="lowamp"/>
+<sil id="q6ec4f.175" start="152.1506" end="157.1325"/>
+<tu id="q6ec4f.176" start="157.1325" end="157.4224" utt="66">yeah</tu>
+<sil id="q6ec4f.178" start="157.4224" end="157.8028"/>
+<tu id="q6ec4f.179" start="157.8028" end="158.0663" utt="66">mmhmm</tu>
+<sil id="q6ec4f.180" start="158.0663" end="158.5044"/>
+<noi id="q6ec4f.181" start="158.5044" end="158.5802" type="nonvocal"/>
+<sil id="q6ec4f.182" start="158.5802" end="166.5627"/>
+<tu id="q6ec4f.183" start="166.5627" end="166.7071" utt="68">to</tu>
+<tu id="q6ec4f.184" start="166.7071" end="166.7833" utt="68">the</tu>
+<tu id="q6ec4f.185" start="166.7834" end="167.0568" utt="68">le--</tu>
+<sil id="q6ec4f.186" start="167.0568" end="167.2066"/>
+<tu id="q6ec4f.187" start="167.2066" end="167.4223" utt="68">right</tu>
+<tu id="q6ec4f.188" start="167.4224" end="167.4916" utt="68">or</tu>
+<tu id="q6ec4f.189" start="167.4916" end="167.5327">the</tu>
+<tu id="q6ec4f.190" start="167.5327" end="167.8226" utt="68">left</tu>
+<tu id="q6ec4f.191" start="167.8226" end="167.9642" utt="68">of</tu>
+<tu id="q6ec4f.192" start="167.9642" end="168.0070" utt="68">the</tu>
+<tu id="q6ec4f.193" start="168.0070" end="168.2672" utt="68">fort</tu>
+<noi id="q6ec4f.195" start="168.2672" end="168.3825" type="lowamp"/>
+<sil id="q6ec4f.196" start="168.3825" end="173.7662"/>
+<noi id="q6ec4f.197" start="173.7662" end="173.8452" type="nonvocal"/>
+<sil id="q6ec4f.198" start="173.8453" end="174.3245"/>
+<tu id="q6ec4f.199" start="174.3245" end="174.4431" utt="70">so</tu>
+<tu id="q6ec4f.200" start="174.4431" end="174.5370" utt="70">you</tu>
+<tu id="q6ec4f.201" start="174.5370" end="174.8038" utt="70">go</tu>
+<sil id="q6ec4f.202" start="174.8038" end="175.0179"/>
+<tu id="q6ec4f.203" start="175.0179" end="175.2864" utt="70">to</tu>
+<noi id="q6ec4f.204" start="175.2864" end="175.4312" type="lowamp"/>
+<sil id="q6ec4f.205" start="175.4312" end="178.7975"/>
+<tu id="q6ec4f.206" start="178.7975" end="178.9795" utt="72">right</tu>
+<tu id="q6ec4f.207" start="178.9795" end="179.4299" utt="72">underneath</tu>
+<tu id="q6ec4f.208" start="179.4299" end="179.5880" utt="72">it</tu>
+<noi id="q6ec4f.210" start="179.5880" end="179.6769" type="lowamp"/>
+<sil id="q6ec4f.211" start="179.6770" end="179.9866"/>
+<tu id="q6ec4f.212" start="179.9866" end="180.2114" utt="74">right</tu>
+<sil id="q6ec4f.214" start="180.2114" end="180.4592"/>
+<tu id="q6ec4f.215" start="180.4592" end="180.8446" utt="74">okay</tu>
+<sil id="q6ec4f.217" start="180.8446" end="181.9662"/>
+<noi id="q6ec4f.218" start="181.9662" end="182.0288" type="lipsmack"/>
+<sil id="q6ec4f.219" start="182.0288" end="184.6292"/>
+<noi id="q6ec4f.220" start="184.6292" end="184.9108" type="nonvocal"/>
+<sil id="q6ec4f.221" start="184.9108" end="184.9981"/>
+<tu id="q6ec4f.222" start="184.9981" end="185.3374" utt="76">no</tu>
+<sil id="q6ec4f.224" start="185.3374" end="185.4165"/>
+<noi id="q6ec4f.225" start="185.4165" end="185.7178" type="inbreath"/>
+<sil id="q6ec4f.226" start="185.7178" end="189.6868"/>
+<tu id="q6ec4f.228" start="189.6868" end="189.9404" utt="78">yeah</tu>
+<noi id="q6ec4f.230" start="189.9405" end="190.3292" type="outbreath"/>
+<sil id="q6ec4f.231" start="190.3292" end="198.3199"/>
+<noi id="q6ec4f.232" start="198.3199" end="198.4978" type="nonvocal"/>
+<sil id="q6ec4f.233" start="198.4978" end="198.8980"/>
+<tu id="q6ec4f.234" start="198.8980" end="199.0577" utt="80">oh</tu>
+<tu id="q6ec4f.236" start="199.0577" end="199.2932" utt="80">yeah</tu>
+<tu id="q6ec4f.238" start="199.2932" end="199.3723" utt="80">the</tu>
+<tu id="q6ec4f.240" start="199.3723" end="199.6885" utt="80">outlaws'</tu>
+<tu id="q6ec4f.241" start="199.6885" end="200.0047" utt="80">hideout</tu>
+<noi id="q6ec4f.243" start="200.0047" end="200.1743" type="breath"/>
+<tu id="q6ec4f.244" start="200.1743" end="200.4263" utt="80">uh-huh</tu>
+<noi id="q6ec4f.246" start="200.4263" end="201.0653" type="laugh"/>
+<sil id="q6ec4f.247" start="201.0653" end="201.1658"/>
+<noi id="q6ec4f.248" start="201.1658" end="201.8608" type="inbreath"/>
+<sil id="q6ec4f.249" start="201.8608" end="210.6091"/>
+<tu id="q6ec4f.251" start="210.6091" end="210.9698" utt="82">right</tu>
+<sil id="q6ec4f.253" start="210.9698" end="211.0340"/>
+<noi id="q6ec4f.254" start="211.0340" end="211.3057" type="breath"/>
+<sil id="q6ec4f.255" start="211.3057" end="215.8248"/>
+<tu id="q6ec4f.256" start="215.8248" end="216.4226" utt="84">right</tu>
+<sil id="q6ec4f.258" start="216.4227" end="218.4962"/>
+<noi id="q6ec4f.259" start="218.4962" end="218.7250" type="outbreath"/>
+<sil id="q6ec4f.260" start="218.7250" end="219.2174"/>
+<tu id="q6ec4f.261" start="219.2175" end="219.5485" utt="86">yeah</tu>
+<noi id="q6ec4f.263" start="219.5485" end="219.7922" type="lowamp"/>
+<sil id="q6ec4f.264" start="219.7922" end="225.4460"/>
+<noi id="q6ec4f.265" start="225.4460" end="225.5267" type="lipsmack"/>
+<tu id="q6ec4f.266" start="225.5267" end="225.8578" utt="88">right</tu>
+<sil id="q6ec4f.267" start="225.8578" end="229.2784"/>
+<noi id="q6ec4f.268" start="229.2784" end="230.9319" type="nonvocal"/>
+<tu id="q6ec4f.269" start="230.9319" end="231.2843" utt="90">no</tu>
+<sil id="q6ec4f.271" start="231.2843" end="237.4207"/>
+<noi id="q6ec4f.272" start="237.4207" end="237.5393" type="nonvocal"/>
+<sil id="q6ec4f.273" start="237.5393" end="237.7205"/>
+<tu id="q6ec4f.274" start="237.7205" end="238.2408" utt="92">mmhmm</tu>
+<sil id="q6ec4f.275" start="238.2409" end="240.2106"/>
+<noi id="q6ec4f.276" start="240.2106" end="240.5532" type="nonvocal"/>
+<tu id="q6ec4f.277" start="240.5532" end="240.8759" utt="94">yeah</tu>
+<sil id="q6ec4f.279" start="240.8759" end="246.5561"/>
+<noi id="q6ec4f.280" start="246.5561" end="247.0238" type="nonvocal"/>
+<sil id="q6ec4f.281" start="247.0238" end="247.1243"/>
+<tu id="q6ec4f.282" start="247.1243" end="247.2297" utt="96">the</tu>
+<tu id="q6ec4f.283" start="247.2297" end="247.4619" utt="96">top</tu>
+<tu id="q6ec4f.284" start="247.4619" end="247.5591">of the</tu>
+<tu id="q6ec4f.286" start="247.5591" end="247.8885" utt="96">saloon</tu>
+<tu id="q6ec4f.287" start="247.8885" end="248.0679" utt="96">bar</tu>
+<tu id="q6ec4f.288" start="248.0680" end="248.3710" utt="96">then</tu>
+<sil id="q6ec4f.290" start="248.3710" end="248.6971"/>
+<tu id="q6ec4f.291" start="248.6971" end="248.8502" utt="96">it'll</tu>
+<tu id="q6ec4f.293" start="248.8502" end="249.0874" utt="98">be</tu>
+<sil id="q6ec4f.295" start="249.0874" end="249.1681"/>
+<tu id="q6ec4f.296" start="249.1681" end="249.4201" utt="98">yeah</tu>
+<sil id="q6ec4f.298" start="249.4201" end="249.5634"/>
+<tu id="q6ec4f.299" start="249.5634" end="249.8796" utt="98">right</tu>
+<sil id="q6ec4f.301" start="249.8796" end="253.9804"/>
+<noi id="q6ec4f.302" start="253.9804" end="254.0709" type="lipsmack"/>
+<sil id="q6ec4f.303" start="254.0709" end="254.1532"/>
+<tu id="q6ec4f.304" start="254.1533" end="254.2521" utt="100">to</tu>
+<tu id="q6ec4f.305" start="254.2521" end="254.3498" utt="100">the</tu>
+<tu id="q6ec4f.306" start="254.3498" end="254.7742" utt="100">right-hand</tu>
+<tu id="q6ec4f.307" start="254.7742" end="254.8549" utt="100">of</tu>
+<tu id="q6ec4f.308" start="254.8549" end="254.9488" utt="100">the</tu>
+<tu id="q6ec4f.309" start="254.9488" end="255.2501" utt="100">saloon</tu>
+<tu id="q6ec4f.310" start="255.2501" end="255.3845" utt="100">bar</tu>
+<tu id="q6ec4f.310.1" start="255.3845" end="255.4764">or</tu>
+<tu id="q6ec4f.311" start="255.4764" end="255.5960" utt="100">the</tu>
+<sil id="q6ec4f.312" start="255.5960" end="255.8101"/>
+<tu id="q6ec4f.313" start="255.8101" end="255.9171" utt="100">the</tu>
+<tu id="q6ec4f.314" start="255.9171" end="256.1575" utt="100">left</tu>
+<tu id="q6ec4f.315" start="256.1576" end="256.4573" utt="100">side</tu>
+<noi id="q6ec4f.317" start="256.4573" end="256.5413" type="lowamp"/>
+<sil id="q6ec4f.318" start="256.5413" end="257.7534"/>
+<tu id="q6ec4f.319" start="257.7534" end="257.8621" utt="102">the</tu>
+<tu id="q6ec4f.320" start="257.8621" end="257.9790" utt="102">right</tu>
+<tu id="q6ec4f.321" start="257.9790" end="258.3166" utt="102">side</tu>
+<sil id="q6ec4f.323" start="258.3166" end="258.9424"/>
+<noi id="q6ec4f.324" start="258.9425" end="258.9672" type="lipsmack"/>
+<sil id="q6ec4f.325" start="258.9672" end="259.0644"/>
+<tu id="q6ec4f.326" start="259.0644" end="259.3641" utt="102">right</tu>
+<sil id="q6ec4f.328" start="259.3641" end="262.7748"/>
+<noi id="q6ec4f.329" start="262.7748" end="262.8621" type="lipsmack"/>
+<tu id="q6ec4f.330" start="262.8621" end="263.1025" utt="104">along</tu>
+<tu id="q6ec4f.331" start="263.1026" end="263.1849" utt="104">the</tu>
+<tu id="q6ec4f.332" start="263.1849" end="263.5802" utt="104">bottom</tu>
+<sil id="q6ec4f.334" start="263.5802" end="264.3328"/>
+<tu id="q6ec4f.335" start="264.3328" end="264.6523" utt="106">right</tu>
+<sil id="q6ec4f.337" start="264.6523" end="271.8097"/>
+<noi id="q6ec4f.338" start="271.8097" end="271.9612" type="nonvocal"/>
+<noi id="q6ec4f.339" start="271.9612" end="272.3153" type="outbreath"/>
+<sil id="q6ec4f.340" start="272.3153" end="272.4471"/>
+<noi id="q6ec4f.341" start="272.4471" end="272.5278" type="lipsmack"/>
+<sil id="q6ec4f.342" start="272.5278" end="273.0598"/>
+<tu id="q6ec4f.343" start="273.0598" end="273.3431" utt="108">right</tu>
+<sil id="q6ec4f.345" start="273.3431" end="277.9132"/>
+<noi id="q6ec4f.346" start="277.9132" end="277.9659" type="lipsmack"/>
+<sil id="q6ec4f.347" start="277.9659" end="278.1289"/>
+<tu id="q6ec4f.348" start="278.1289" end="278.6855" utt="110">right</tu>
+<sil id="q6ec4f.350" start="278.6855" end="280.3322"/>
+<tu id="q6ec4f.351" start="280.3323" end="280.5052" utt="112">right</tu>
+<noi id="q6ec4f.353" start="280.5052" end="280.9367" type="laugh"/>
+</nite:root>
+

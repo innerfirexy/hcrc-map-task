@@ -1,0 +1,616 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nite:root xmlns:nite="http://nite.sourceforge.net/" id="tu.q3ec6.g">
+<sil id="q3ec6g.1" start="0.0000" end="0.0850"/>
+<tu id="q3ec6g.2" start="0.0850" end="0.2172">right</tu>
+<tu id="q3ec6g.3" start="0.2172" end="0.2691">it</tu>
+<tu id="q3ec6g.4" start="0.2691" end="0.7180" utt="1">starts</tu>
+<tu id="q3ec6g.5" start="0.7181" end="1.1595" utt="1">directly</tu>
+<tu id="q3ec6g.6" start="1.1595" end="1.4427" utt="1">above</tu>
+<tu id="q3ec6g.7" start="1.4427" end="1.4855" utt="1">the</tu>
+<tu id="q3ec6g.8" start="1.4855" end="1.8487" utt="1">crest</tu>
+<tu id="q3ec6g.10" start="1.8487" end="2.2851" utt="1">falls</tu>
+<tu id="q3ec6g.11" start="2.2852" end="2.4415" utt="1">if</tu>
+<tu id="q3ec6g.12" start="2.4415" end="2.5468" utt="1">you</tu>
+<tu id="q3ec6g.13" start="2.5468" end="2.9018" utt="1">go</tu>
+<noi id="q3ec6g.14" start="2.9018" end="3.0731" type="lowamp"/>
+<sil id="q3ec6g.15" start="3.0731" end="3.1681"/>
+<tu id="q3ec6g.16" start="3.1681" end="3.2839" utt="1">to</tu>
+<tu id="q3ec6g.17" start="3.2839" end="3.3926" utt="1">the</tu>
+<tu id="q3ec6g.18" start="3.3926" end="3.6199" utt="1">left</tu>
+<tu id="q3ec6g.19" start="3.6199" end="3.7187" utt="1">of</tu>
+<tu id="q3ec6g.20" start="3.7187" end="3.8010" utt="1">your</tu>
+<tu id="q3ec6g.21" start="3.8011" end="4.2524" utt="1">page</tu>
+<tu id="q3ec6g.24" start="4.2524" end="4.6805" utt="1">just</tu>
+<tu id="q3ec6g.25" start="4.6805" end="4.7859" utt="1">to</tu>
+<tu id="q3ec6g.26" start="4.7859" end="4.9374" utt="1">the</tu>
+<tu id="q3ec6g.27" start="4.9374" end="5.2009" utt="1">edge</tu>
+<tu id="q3ec6g.28" start="5.2009" end="5.2997" utt="1">of</tu>
+<tu id="q3ec6g.29" start="5.2997" end="5.4051" utt="1">the</tu>
+<tu id="q3ec6g.30" start="5.4051" end="5.7147" utt="1">crest</tu>
+<tu id="q3ec6g.30.1" start="5.7148" end="6.1792" utt="1">falls</tu>
+<sil id="q3ec6g.32" start="6.1792" end="8.1291"/>
+<noi id="q3ec6g.33" start="8.1291" end="8.1917" type="lipsmack"/>
+<sil id="q3ec6g.34" start="8.1917" end="8.8338"/>
+<tu id="q3ec6g.35" start="8.8338" end="9.0685">come</tu>
+<tu id="q3ec6g.36" start="9.0685" end="9.6772">south</tu>
+<sil id="q3ec6g.37" start="9.6772" end="10.1714"/>
+<tu id="q3ec6g.38" start="10.1714" end="10.3196">due</tu>
+<tu id="q3ec6g.39" start="10.3196" end="10.6457">south</tu>
+<tu id="q3ec6g.40" start="10.6457" end="10.7544">to</tu>
+<tu id="q3ec6g.41" start="10.7544" end="10.8730">the</tu>
+<tu id="q3ec6g.42" start="10.8730" end="11.1568">bottom</tu>
+<tu id="q3ec6g.43" start="11.1568" end="11.2881">of the</tu>
+<tu id="q3ec6g.46" start="11.2881" end="11.7458">page</tu>
+<sil id="q3ec6g.48" start="11.7458" end="13.6024"/>
+<tu id="q3ec6g.49" start="13.6025" end="14.0746">go</tu>
+<tu id="q3ec6g.52" start="14.0746" end="14.1866">to</tu>
+<tu id="q3ec6g.53" start="14.1866" end="14.2722">the</tu>
+<tu id="q3ec6g.54" start="14.2722" end="14.6477">left</tu>
+<tu id="q3ec6g.55" start="14.6477" end="14.7103">of</tu>
+<tu id="q3ec6g.57" start="14.7103" end="14.8025">the</tu>
+<tu id="q3ec6g.58" start="14.8025" end="15.3196" utt="5">page</tu>
+<tu id="q3ec6g.60" start="15.3196" end="15.5081" utt="5">to</tu>
+<tu id="q3ec6g.61" start="15.5081" end="15.7354" utt="5">about</tu>
+<tu id="q3ec6g.62" start="15.7354" end="15.8573" utt="5">an</tu>
+<tu id="q3ec6g.63" start="15.8573" end="16.0112" utt="5">inch</tu>
+<tu id="q3ec6g.64" start="16.0112" end="16.1891" utt="5">from</tu>
+<tu id="q3ec6g.65" start="16.1891" end="16.2624" utt="5">the</tu>
+<tu id="q3ec6g.66" start="16.2624" end="16.7063" utt="5">end</tu>
+<sil id="q3ec6g.67" start="16.7063" end="19.2227"/>
+<tu id="q3ec6g.68" start="19.2227" end="19.3742" utt="7">i</tu>
+<tu id="q3ec6g.69" start="19.3742" end="19.7240" utt="7">suppose</tu>
+<tu id="q3ec6g.70" start="19.7240" end="19.9513" utt="7">so</tu>
+<tu id="q3ec6g.72" start="19.9513" end="20.2932" utt="7">yeah</tu>
+<sil id="q3ec6g.74" start="20.2932" end="20.4347"/>
+<noi id="q3ec6g.75" start="20.4348" end="20.6456" type="inbreath"/>
+<sil id="q3ec6g.76" start="20.6456" end="20.7477"/>
+<tu id="q3ec6g.77" start="20.7477" end="21.1726" utt="7">eh</tu>
+<sil id="q3ec6g.79" start="21.1726" end="22.0191"/>
+<noi id="q3ec6g.80" start="22.0191" end="22.0487" type="lipsmack"/>
+<sil id="q3ec6g.81" start="22.0487" end="22.1907"/>
+<tu id="q3ec6g.82" start="22.1907" end="22.5780" utt="9">go</tu>
+<tu id="q3ec6g.83" start="22.5780" end="23.1521" utt="9">north</tu>
+<sil id="q3ec6g.84" start="23.1521" end="23.2625"/>
+<tu id="q3ec6g.85" start="23.2625" end="23.4585" utt="9">to</tu>
+<tu id="q3ec6g.86" start="23.4585" end="23.5771" utt="9">the</tu>
+<tu id="q3ec6g.87" start="23.5771" end="23.8175" utt="9">level</tu>
+<tu id="q3ec6g.88" start="23.8175" end="23.9328" utt="9">of</tu>
+<tu id="q3ec6g.89" start="23.9328" end="24.0250" utt="9">the</tu>
+<tu id="q3ec6g.90" start="24.0250" end="24.6146" utt="9">footbridge</tu>
+<sil id="q3ec6g.91" start="24.6146" end="27.1581"/>
+<tu id="q3ec6g.92" start="27.1581" end="27.3324">go</tu>
+<tu id="q3ec6g.93" start="27.3324" end="27.6865">up</tu>
+<tu id="q3ec6g.96" start="27.6865" end="27.8894" utt="11">and</tu>
+<tu id="q3ec6g.97" start="27.8894" end="28.0244" utt="11">go</tu>
+<tu id="q3ec6g.98" start="28.0244" end="28.6308" utt="11">across</tu>
+<tu id="q3ec6g.100" start="28.6308" end="28.7556" utt="11">the</tu>
+<tu id="q3ec6g.101" start="28.7556" end="29.2398" utt="11">footbridge</tu>
+<tu id="q3ec6g.103" start="29.2398" end="29.3716" utt="11">and</tu>
+<tu id="q3ec6g.104" start="29.3716" end="29.9085" utt="11">stop</tu>
+<sil id="q3ec6g.105" start="29.9085" end="30.3136"/>
+<tu id="q3ec6g.106" start="30.3136" end="30.8428" utt="11">exactl--</tu>
+<sil id="q3ec6g.107" start="30.8428" end="30.8702"/>
+<tu id="q3ec6g.108" start="30.8703" end="31.1635" utt="11">right</tu>
+<tu id="q3ec6g.109" start="31.1635" end="31.2622" utt="11">at</tu>
+<tu id="q3ec6g.110" start="31.2622" end="31.4071" utt="11">the</tu>
+<tu id="q3ec6g.111" start="31.4072" end="31.6509" utt="11">end</tu>
+<sil id="q3ec6g.112" start="31.6509" end="31.7728"/>
+<tu id="q3ec6g.113" start="31.7728" end="32.0132" utt="11">edge</tu>
+<tu id="q3ec6g.114" start="32.0132" end="32.1186" utt="11">of</tu>
+<tu id="q3ec6g.115" start="32.1186" end="32.1977" utt="11">the</tu>
+<tu id="q3ec6g.116" start="32.1977" end="32.7379" utt="11">footbridge</tu>
+<sil id="q3ec6g.118" start="32.7379" end="34.2102"/>
+<tu id="q3ec6g.119" start="34.2102" end="34.4382" utt="13">o--</tu>
+<tu id="q3ec6g.120" start="34.4382" end="34.7339" utt="13">over</tu>
+<tu id="q3ec6g.121" start="34.7339" end="34.8294" utt="13">the</tu>
+<tu id="q3ec6g.122" start="34.8294" end="35.3597" utt="13">footbridge</tu>
+<sil id="q3ec6g.124" start="35.3597" end="36.4862"/>
+<tu id="q3ec6g.125" start="36.4862" end="36.5422" utt="15">and</tu>
+<tu id="q3ec6g.126" start="36.5422" end="37.0099" utt="15">stop</tu>
+<tu id="q3ec6g.127" start="37.0099" end="37.1845" utt="15">right</tu>
+<tu id="q3ec6g.128" start="37.1845" end="37.2899" utt="15">at</tu>
+<tu id="q3ec6g.129" start="37.2899" end="37.3986" utt="15">the</tu>
+<tu id="q3ec6g.130" start="37.3986" end="37.5929">end</tu>
+<tu id="q3ec6g.131" start="37.5929" end="37.7479" utt="15">of</tu>
+<tu id="q3ec6g.132" start="37.7479" end="37.9037" utt="15">it</tu>
+<sil id="q3ec6g.134" start="37.9037" end="38.2352"/>
+<noi id="q3ec6g.135" start="38.2352" end="38.6667" type="inbreath"/>
+<sil id="q3ec6g.136" start="38.6667" end="38.7721"/>
+<tu id="q3ec6g.137" start="38.7721" end="38.9697" utt="15">there</tu>
+<tu id="q3ec6g.138" start="38.9697" end="39.0817" utt="15">is</tu>
+<tu id="q3ec6g.139" start="39.0817" end="39.1410" utt="15">a</tu>
+<tu id="q3ec6g.140" start="39.1410" end="39.4901" utt="15">poisoned</tu>
+<tu id="q3ec6g.141" start="39.4902" end="39.7998" utt="15">stream</tu>
+<tu id="q3ec6g.142" start="39.7998" end="39.9118" utt="15">on</tu>
+<tu id="q3ec6g.143" start="39.9118" end="40.1654" utt="15">mine</tu>
+<tu id="q3ec6g.144" start="40.1654" end="40.2543" utt="15">but</tu>
+<tu id="q3ec6g.145" start="40.2543" end="40.4849" utt="15">which</tu>
+<tu id="q3ec6g.146" start="40.4849" end="40.5771" utt="15">you</tu>
+<tu id="q3ec6g.147" start="40.5771" end="40.7451" utt="15">don't</tu>
+<tu id="q3ec6g.148" start="40.7451" end="41.2787" utt="15">have</tu>
+<sil id="q3ec6g.150" start="41.2787" end="43.1364"/>
+<tu id="q3ec6g.151" start="43.1364" end="43.5745" utt="17">okay</tu>
+<sil id="q3ec6g.153" start="43.5745" end="43.7622"/>
+<tu id="q3ec6g.154" start="43.7622" end="44.1410" utt="17">and</tu>
+<tu id="q3ec6g.155" start="44.1410" end="44.3617" utt="17">so</tu>
+<tu id="q3ec6g.156" start="44.3617" end="44.5692" utt="17">what</tu>
+<tu id="q3ec6g.157" start="44.5692" end="44.6845" utt="17">you</tu>
+<tu id="q3ec6g.159" start="44.6845" end="44.8294" utt="17">do</tu>
+<tu id="q3ec6g.160" start="44.8294" end="44.9381" utt="17">is</tu>
+<tu id="q3ec6g.161" start="44.9381" end="45.0534" utt="17">you</tu>
+<tu id="q3ec6g.162" start="45.0534" end="45.2379" utt="17">come</tu>
+<tu id="q3ec6g.163" start="45.2379" end="45.8109" utt="17">south</tu>
+<sil id="q3ec6g.164" start="45.8110" end="46.3084"/>
+<tu id="q3ec6g.165" start="46.3084" end="46.9341" utt="17">immediately</tu>
+<tu id="q3ec6g.166" start="46.9342" end="47.3492" utt="17">south</tu>
+<sil id="q3ec6g.167" start="47.3492" end="47.5929"/>
+<tu id="q3ec6g.168" start="47.5929" end="47.7668" utt="17">at</tu>
+<tu id="q3ec6g.169" start="47.7668" end="47.8623">the</tu>
+<tu id="q3ec6g.170" start="47.8623" end="48.0665">edge</tu>
+<tu id="q3ec6g.171" start="48.0665" end="48.2081">of the</tu>
+<tu id="q3ec6g.173" start="48.2082" end="48.7622" utt="17">footbridge</tu>
+<noi id="q3ec6g.175" start="48.7622" end="48.8241" type="nonvocal"/>
+<tu id="q3ec6g.176" start="48.8241" end="49.0810" utt="17">oh</tu>
+<tu id="q3ec6g.178" start="49.0810" end="49.2622" utt="17">for</tu>
+<tu id="q3ec6g.179" start="49.2622" end="49.6410" utt="17">about</tu>
+<sil id="q3ec6g.180" start="49.6410" end="51.2154"/>
+<tu id="q3ec6g.181" start="51.2154" end="51.4460" utt="17">for</tu>
+<tu id="q3ec6g.182" start="51.4460" end="51.8511" utt="17">about</tu>
+<sil id="q3ec6g.183" start="51.8511" end="51.9170"/>
+<tu id="q3ec6g.184" start="51.9170" end="52.1278" utt="17">an</tu>
+<tu id="q3ec6g.185" start="52.1278" end="52.5165" utt="17">inch</tu>
+<tu id="q3ec6g.187" start="52.5165" end="52.9229" utt="17">so</tu>
+<tu id="q3ec6g.188" start="52.9230" end="53.1130" utt="17">that</tu>
+<tu id="q3ec6g.189" start="53.1130" end="53.5013" utt="17">you're</tu>
+<noi id="q3ec6g.191" start="53.5013" end="53.6067" type="lipsmack"/>
+<tu id="q3ec6g.192" start="53.6067" end="53.8867" utt="17">about</tu>
+<tu id="q3ec6g.193" start="53.8867" end="54.0580" utt="17">an</tu>
+<tu id="q3ec6g.194" start="54.0580" end="54.3940" utt="17">inch</tu>
+<tu id="q3ec6g.195" start="54.3940" end="54.6903" utt="17">above</tu>
+<tu id="q3ec6g.196" start="54.6904" end="54.7958" utt="17">the</tu>
+<tu id="q3ec6g.197" start="54.7958" end="55.3494" utt="17">starting</tu>
+<tu id="q3ec6g.199" start="55.3494" end="55.8926" utt="17">cross</tu>
+<sil id="q3ec6g.200" start="55.8926" end="56.9894"/>
+<tu id="q3ec6g.201" start="56.9894" end="57.1442" utt="17">not</tu>
+<tu id="q3ec6g.202" start="57.1443" end="57.4803" utt="17">actually</tu>
+<tu id="q3ec6g.203" start="57.4803" end="57.7766" utt="17">above</tu>
+<tu id="q3ec6g.204" start="57.7767" end="57.9546" utt="17">it</tu>
+<sil id="q3ec6g.206" start="57.9546" end="58.3365"/>
+<tu id="q3ec6g.207" start="58.3366" end="58.4467">you</tu>
+<tu id="q3ec6g.208" start="58.4467" end="58.5931">know</tu>
+<tu id="q3ec6g.210" start="58.5931" end="58.8406" utt="17">but</tu>
+<tu id="q3ec6g.211" start="58.8406" end="59.2688" utt="17">eh</tu>
+<tu id="q3ec6g.212" start="59.2688" end="59.6871" utt="19">along</tu>
+<tu id="q3ec6g.213" start="59.6871" end="59.7629" utt="19">and</tu>
+<tu id="q3ec6g.214" start="59.7629" end="60.0428" utt="19">above</tu>
+<tu id="q3ec6g.215" start="60.0428" end="60.1680" utt="19">it</tu>
+<sil id="q3ec6g.217" start="60.1680" end="60.1976"/>
+<noi id="q3ec6g.218" start="60.1976" end="60.7048" type="inbreath"/>
+<sil id="q3ec6g.219" start="60.7049" end="60.7905"/>
+<tu id="q3ec6g.220" start="60.7905" end="61.1627" utt="19">ehm</tu>
+<tu id="q3ec6g.221" start="61.1627" end="61.6041" utt="19">then</tu>
+<tu id="q3ec6g.222" start="61.6041" end="62.1311" utt="19">come</tu>
+<sil id="q3ec6g.223" start="62.1311" end="63.6495"/>
+<noi id="q3ec6g.224" start="63.6495" end="63.6824" type="phongesture"/>
+<sil id="q3ec6g.225" start="63.6825" end="63.7813"/>
+<tu id="q3ec6g.226" start="63.7813" end="64.0876" utt="19">then</tu>
+<tu id="q3ec6g.227" start="64.0876" end="64.4631" utt="19">come</tu>
+<tu id="q3ec6g.228" start="64.4631" end="64.5652" utt="19">to</tu>
+<tu id="q3ec6g.229" start="64.5652" end="64.6673" utt="19">the</tu>
+<tu id="q3ec6g.230" start="64.6673" end="64.9506" utt="19">right</tu>
+<tu id="q3ec6g.231" start="64.9506" end="65.0659" utt="19">of</tu>
+<tu id="q3ec6g.232" start="65.0659" end="65.1812" utt="19">your</tu>
+<tu id="q3ec6g.233" start="65.1812" end="65.6522" utt="19">page</tu>
+<sil id="q3ec6g.234" start="65.6522" end="66.6140"/>
+<noi id="q3ec6g.235" start="66.6140" end="66.6634" type="phongesture"/>
+<sil id="q3ec6g.236" start="66.6634" end="66.7136"/>
+<tu id="q3ec6g.238" start="66.7136" end="66.8083" utt="19">to</tu>
+<tu id="q3ec6g.239" start="66.8083" end="66.9335" utt="19">the</tu>
+<tu id="q3ec6g.240" start="66.9335" end="67.2326" utt="19">level</tu>
+<tu id="q3ec6g.241" start="67.2326" end="67.3551" utt="19">of</tu>
+<tu id="q3ec6g.242" start="67.3551" end="67.5363" utt="19">the</tu>
+<sil id="q3ec6g.243" start="67.5363" end="67.8030"/>
+<noi id="q3ec6g.244" start="67.8030" end="67.9380" type="phongesture"/>
+<sil id="q3ec6g.245" start="67.9381" end="68.1851"/>
+<tu id="q3ec6g.246" start="68.1851" end="68.3531" utt="19">'til</tu>
+<tu id="q3ec6g.247" start="68.3531" end="68.5804" utt="19">you're</tu>
+<tu id="q3ec6g.248.1" start="68.5804" end="68.6898" utt="19">d--</tu>
+<tu id="q3ec6g.250" start="68.6898" end="69.0711" utt="19">eh</tu>
+<sil id="q3ec6g.251" start="69.0712" end="70.1120"/>
+<tu id="q3ec6g.252" start="70.1120" end="70.3169">and</tu>
+<tu id="q3ec6g.253" start="70.3169" end="70.4249">g--</tu>
+<tu id="q3ec6g.254" start="70.4249" end="70.7049" utt="19">then</tu>
+<tu id="q3ec6g.255" start="70.7049" end="70.8110" utt="19">go</tu>
+<tu id="q3ec6g.256" start="70.8110" end="71.3380" utt="19">north</tu>
+<noi id="q3ec6g.257" start="71.3380" end="71.7490" type="inbreath"/>
+<tu id="q3ec6g.258" start="71.7490" end="71.9927" utt="19">just</tu>
+<sil id="q3ec6g.260" start="71.9928" end="72.6812"/>
+<tu id="q3ec6g.261" start="72.6812" end="72.9381" utt="19">eh</tu>
+<sil id="q3ec6g.263" start="72.9381" end="72.9974"/>
+<tu id="q3ec6g.264" start="72.9974" end="73.1588" utt="19">to</tu>
+<tu id="q3ec6g.265" start="73.1588" end="73.5771" utt="19">the</tu>
+<tu id="q3ec6g.266" start="73.5771" end="73.9328">left</tu>
+<tu id="q3ec6g.267" start="73.9328" end="73.9888" utt="19">of</tu>
+<tu id="q3ec6g.268" start="73.9888" end="74.1173" utt="19">the</tu>
+<tu id="q3ec6g.269" start="74.1173" end="74.3314" utt="19">old</tu>
+<tu id="q3ec6g.270" start="74.3314" end="74.7464" utt="19">temple</tu>
+<sil id="q3ec6g.272" start="74.7464" end="80.9388"/>
+<tu id="q3ec6g.273" start="80.9388" end="81.4558" utt="21">north</tu>
+<sil id="q3ec6g.275" start="81.4559" end="81.7787"/>
+<tu id="q3ec6g.276" start="81.7787" end="81.9039" utt="21">to</tu>
+<tu id="q3ec6g.277" start="81.9039" end="82.0421" utt="21">the</tu>
+<tu id="q3ec6g.278" start="82.0422" end="82.3255" utt="21">left</tu>
+<tu id="q3ec6g.279" start="82.3255" end="82.3748" utt="21">of</tu>
+<tu id="q3ec6g.280" start="82.3748" end="82.4934" utt="21">the</tu>
+<sil id="q3ec6g.281" start="82.4934" end="82.6811"/>
+<tu id="q3ec6g.282" start="82.6812" end="82.9085" utt="21">of</tu>
+<tu id="q3ec6g.283" start="82.9085" end="83.0270" utt="21">the</tu>
+<tu id="q3ec6g.284" start="83.0270" end="83.2345" utt="21">old</tu>
+<tu id="q3ec6g.285" start="83.2345" end="83.5836" utt="21">temple</tu>
+<noi id="q3ec6g.287" start="83.5837" end="83.9295" type="inbreath"/>
+<sil id="q3ec6g.288" start="83.9295" end="84.0020"/>
+<tu id="q3ec6g.289" start="84.0020" end="84.3940" utt="22">go</tu>
+<sil id="q3ec6g.290" start="84.3940" end="84.6014"/>
+<tu id="q3ec6g.291" start="84.6014" end="85.0098" utt="22">up</tu>
+<sil id="q3ec6g.292" start="85.0099" end="86.2088"/>
+<tu id="q3ec6g.293" start="86.2088" end="87.0520" utt="24">until</tu>
+<noi id="q3ec6g.294" start="87.0520" end="87.5889" type="inbreath"/>
+<sil id="q3ec6g.295" start="87.5889" end="87.8425"/>
+<tu id="q3ec6g.296" start="87.8426" end="88.0443" utt="24">you</tu>
+<tu id="q3ec6g.297" start="88.0443" end="88.2319" utt="24">are</tu>
+<tu id="q3ec6g.298" start="88.2320" end="88.4988" utt="24">about</tu>
+<sil id="q3ec6g.299" start="88.4988" end="88.5936"/>
+<tu id="q3ec6g.300" start="88.5936" end="88.8742" utt="24">two</tu>
+<tu id="q3ec6g.301" start="88.8742" end="89.3675" utt="24">inches</tu>
+<tu id="q3ec6g.303" start="89.3676" end="90.0560" utt="24">above</tu>
+<sil id="q3ec6g.304" start="90.0560" end="90.5237"/>
+<tu id="q3ec6g.305" start="90.5237" end="90.7872" utt="24">about</tu>
+<tu id="q3ec6g.306" start="90.7872" end="90.9288" utt="24">an</tu>
+<tu id="q3ec6g.307" start="90.9289" end="91.2451" utt="24">inch</tu>
+<tu id="q3ec6g.308" start="91.2451" end="91.5877" utt="24">above</tu>
+<tu id="q3ec6g.309" start="91.5877" end="91.6798" utt="24">the</tu>
+<tu id="q3ec6g.310" start="91.6798" end="92.3122" utt="24">abandoned</tu>
+<sil id="q3ec6g.311" start="92.3123" end="92.7243"/>
+<tu id="q3ec6g.312" start="92.7243" end="93.3037" utt="24">truck</tu>
+<sil id="q3ec6g.313" start="93.3037" end="94.5817"/>
+<tu id="q3ec6g.314" start="94.5817" end="94.7101" utt="24">to</tu>
+<tu id="q3ec6g.315" start="94.7101" end="94.8221" utt="24">th--</tu>
+<sil id="q3ec6g.316" start="94.8221" end="94.8649"/>
+<tu id="q3ec6g.317" start="94.8649" end="95.1581" utt="24">which</tu>
+<tu id="q3ec6g.318" start="95.1581" end="95.4408" utt="24">should</tu>
+<tu id="q3ec6g.319" start="95.4408" end="95.6225">be</tu>
+<tu id="q3ec6g.320" start="95.6225" end="95.7378" utt="24">to</tu>
+<tu id="q3ec6g.321" start="95.7378" end="95.8564" utt="24">the</tu>
+<tu id="q3ec6g.322" start="95.8564" end="96.3538" utt="24">left</tu>
+<tu id="q3ec6g.323" start="96.3538" end="96.6371">of</tu>
+<tu id="q3ec6g.324" start="96.6371" end="96.8807" utt="24">your</tu>
+<tu id="q3ec6g.325" start="96.8808" end="96.9961" utt="24">t--</tu>
+<tu id="q3ec6g.326" start="96.9961" end="97.5197" utt="24">straight</tu>
+<sil id="q3ec6g.327" start="97.5198" end="97.6548"/>
+<noi id="q3ec6g.328" start="97.6548" end="97.6877" type="phongesture"/>
+<sil id="q3ec6g.329" start="97.6877" end="97.8294"/>
+<tu id="q3ec6g.330" start="97.8294" end="98.1868" utt="24">north</tu>
+<tu id="q3ec6g.331" start="98.1868" end="98.5442" utt="24">line</tu>
+<sil id="q3ec6g.333" start="98.5442" end="101.5712"/>
+<tu id="q3ec6g.334" start="101.5712" end="101.6898" utt="26">you</tu>
+<tu id="q3ec6g.335" start="101.6898" end="101.8544" utt="26">have</tu>
+<tu id="q3ec6g.336" start="101.8544" end="101.9203" utt="26">a</tu>
+<tu id="q3ec6g.337" start="101.9203" end="102.2075" utt="26">slate</tu>
+<tu id="q3ec6g.338" start="102.2075" end="102.5637" utt="26">mountain</tu>
+<noi id="q3ec6g.338.1" start="102.5637" end="102.7667" type="inbreath"/>
+<sil id="q3ec6g.340" start="102.7668" end="102.9084"/>
+<tu id="q3ec6g.341" start="102.9084" end="103.0995" utt="26">go</tu>
+<tu id="q3ec6g.342" start="103.0995" end="103.4190" utt="26">round</tu>
+<tu id="q3ec6g.343" start="103.4190" end="103.5046" utt="26">the</tu>
+<tu id="q3ec6g.344" start="103.5046" end="103.8043" utt="26">slate</tu>
+<tu id="q3ec6g.345" start="103.8043" end="104.1897" utt="26">mountain</tu>
+<sil id="q3ec6g.347" start="104.1897" end="104.4598"/>
+<tu id="q3ec6g.348" start="104.4598" end="104.7266" utt="28">go</tu>
+<sil id="q3ec6g.349" start="104.7266" end="104.8781"/>
+<tu id="q3ec6g.350" start="104.8781" end="105.0790">go--</tu>
+<sil id="q3ec6g.351" start="105.0790" end="105.1152"/>
+<noi id="q3ec6g.352" start="105.1153" end="105.6950" type="inbreath"/>
+<sil id="q3ec6g.353" start="105.6950" end="106.4658"/>
+<tu id="q3ec6g.354" start="106.4658" end="106.6963" utt="30">yeah</tu>
+<tu id="q3ec6g.356" start="106.6963" end="106.8445" utt="30">a</tu>
+<tu id="q3ec6g.357" start="106.8445" end="107.3089" utt="30">curve</tu>
+<sil id="q3ec6g.358" start="107.3089" end="107.6416"/>
+<tu id="q3ec6g.359" start="107.6416" end="107.9216" utt="30">just</tu>
+<tu id="q3ec6g.360" start="107.9216" end="108.4453" utt="30">immediately</tu>
+<tu id="q3ec6g.361" start="108.4453" end="108.8010" utt="30">round</tu>
+<tu id="q3ec6g.362" start="108.8011" end="108.9658" utt="30">it</tu>
+<tu id="q3ec6g.363" start="108.9658" end="109.1831" utt="30">and</tu>
+<tu id="q3ec6g.364" start="109.1831" end="109.4730" utt="30">come</tu>
+<sil id="q3ec6g.365" start="109.4730" end="109.8254"/>
+<tu id="q3ec6g.366" start="109.8254" end="110.0626" utt="30">and</tu>
+<tu id="q3ec6g.367" start="110.0626" end="110.2602" utt="30">then</tu>
+<tu id="q3ec6g.368" start="110.2602" end="110.5072" utt="30">come</tu>
+<tu id="q3ec6g.369" start="110.5072" end="110.8761" utt="30">down</tu>
+<tu id="q3ec6g.371" start="110.8762" end="111.1825" utt="30">and</tu>
+<tu id="q3ec6g.372" start="111.1825" end="111.6107" utt="30">under</tu>
+<tu id="q3ec6g.373" start="111.6107" end="111.7457" utt="30">the</tu>
+<tu id="q3ec6g.374" start="111.7457" end="112.2431" utt="30">abandoned</tu>
+<tu id="q3ec6g.375" start="112.2431" end="112.6153" utt="30">truck</tu>
+<sil id="q3ec6g.377" start="112.6153" end="116.4855"/>
+<tu id="q3ec6g.378" start="116.4855" end="116.6542" utt="32">and</tu>
+<tu id="q3ec6g.379" start="116.6542" end="117.0528" utt="32">stop</tu>
+<tu id="q3ec6g.380" start="117.0528" end="117.1416" utt="32">at</tu>
+<tu id="q3ec6g.381" start="117.1417" end="117.2043" utt="32">the</tu>
+<tu id="q3ec6g.382" start="117.2043" end="117.3756" utt="32">edge</tu>
+<tu id="q3ec6g.383" start="117.3756" end="117.4578" utt="32">of</tu>
+<tu id="q3ec6g.384" start="117.4579" end="117.5370" utt="32">the</tu>
+<tu id="q3ec6g.385" start="117.5370" end="117.9519" utt="32">abandoned</tu>
+<tu id="q3ec6g.386" start="117.9520" end="118.3959" utt="32">truck</tu>
+<sil id="q3ec6g.388" start="118.3959" end="120.3168"/>
+<tu id="q3ec6g.389" start="120.3168" end="120.6296" utt="34">yeah</tu>
+<sil id="q3ec6g.391" start="120.6297" end="120.7680"/>
+<tu id="q3ec6g.392" start="120.7680" end="121.1369" utt="34">just</tu>
+<sil id="q3ec6g.393" start="121.1369" end="121.3115"/>
+<tu id="q3ec6g.394" start="121.3115" end="121.9018" utt="36">immediately</tu>
+<tu id="q3ec6g.395" start="121.9018" end="122.1620" utt="36">after</tu>
+<tu id="q3ec6g.396" start="122.1620" end="122.2378" utt="36">the</tu>
+<tu id="q3ec6g.397" start="122.2378" end="122.4907" utt="36">abandoned</tu>
+<tu id="q3ec6g.398" start="122.4907" end="122.6817" utt="36">truck</tu>
+<sil id="q3ec6g.400" start="122.6817" end="122.7706"/>
+<noi id="q3ec6g.401" start="122.7707" end="123.1330" type="inbreath"/>
+<sil id="q3ec6g.402" start="123.1330" end="123.2088"/>
+<tu id="q3ec6g.403" start="123.2088" end="123.3437" utt="36">now</tu>
+<tu id="q3ec6g.404" start="123.3438" end="123.4294" utt="36">you</tu>
+<tu id="q3ec6g.405" start="123.4294" end="123.6204" utt="36">don't</tu>
+<tu id="q3ec6g.406" start="123.6204" end="123.7983" utt="36">have</tu>
+<tu id="q3ec6g.408" start="123.7983" end="124.5081" utt="36">baboons</tu>
+<sil id="q3ec6g.409" start="124.5081" end="124.6580"/>
+<tu id="q3ec6g.410" start="124.6580" end="125.1158" utt="36">so</tu>
+<sil id="q3ec6g.411" start="125.1158" end="125.1751"/>
+<noi id="q3ec6g.412" start="125.1751" end="125.5111" type="inbreath"/>
+<noi id="q3ec6g.413" start="125.5111" end="125.7351" type="outbreath"/>
+<noi id="q3ec6g.414" start="125.7351" end="125.9920" type="inbreath"/>
+<sil id="q3ec6g.415" start="125.9920" end="126.0678"/>
+<tu id="q3ec6g.416" start="126.0678" end="126.3806" utt="36">come</tu>
+<tu id="q3ec6g.418" start="126.3806" end="126.7372" utt="36">dow--</tu>
+<noi id="q3ec6g.419" start="126.7372" end="126.8352" type="lipsmack"/>
+<tu id="q3ec6g.420" start="126.8352" end="127.1712" utt="36">come</tu>
+<tu id="q3ec6g.421" start="127.1712" end="127.6982" utt="36">due</tu>
+<sil id="q3ec6g.423" start="127.6982" end="128.5140"/>
+<tu id="q3ec6g.424" start="128.5140" end="128.7643" utt="36">eh</tu>
+<tu id="q3ec6g.426" start="128.7644" end="129.3573" utt="36">south</tu>
+<tu id="q3ec6g.427" start="129.3573" end="129.6537" utt="36">for</tu>
+<tu id="q3ec6g.428" start="129.6537" end="129.9995" utt="36">about</tu>
+<sil id="q3ec6g.429" start="129.9995" end="130.2663"/>
+<tu id="q3ec6g.430" start="130.2663" end="130.5068" utt="36">two</tu>
+<tu id="q3ec6g.431" start="130.5068" end="131.0437" utt="36">inches</tu>
+<sil id="q3ec6g.433" start="131.0437" end="132.4337"/>
+<tu id="q3ec6g.434" start="132.4337" end="132.6445" utt="36">just</tu>
+<tu id="q3ec6g.435" start="132.6445" end="132.8487" utt="36">so</tu>
+<tu id="q3ec6g.436" start="132.8487" end="132.9833" utt="36">that</tu>
+<tu id="q3ec6g.437" start="132.9834" end="133.1156" utt="36">you</tu>
+<tu id="q3ec6g.438" start="133.1156" end="133.2670" utt="36">are</tu>
+<tu id="q3ec6g.439" start="133.2670" end="133.4679" utt="36">about</tu>
+<tu id="q3ec6g.440" start="133.4679" end="133.5964" utt="36">an</tu>
+<tu id="q3ec6g.441" start="133.5964" end="133.8105">inch</tu>
+<tu id="q3ec6g.442" start="133.8105" end="134.1341" utt="36">above</tu>
+<tu id="q3ec6g.443" start="134.1341" end="134.2716" utt="36">your</tu>
+<tu id="q3ec6g.444" start="134.2716" end="134.7558" utt="36">footbridge</tu>
+<tu id="q3ec6g.446" start="134.7558" end="134.9930" utt="36">like</tu>
+<sil id="q3ec6g.447" start="134.9930" end="135.8725"/>
+<tu id="q3ec6g.448" start="135.8725" end="135.9529">if</tu>
+<tu id="q3ec6g.449" start="135.9529" end="136.0558">you</tu>
+<tu id="q3ec6g.450" start="136.0558" end="136.2512">know</tu>
+<sil id="q3ec6g.451" start="136.2512" end="137.2361"/>
+<tu id="q3ec6g.452" start="137.2361" end="137.4041" utt="38">right</tu>
+<sil id="q3ec6g.454" start="137.4041" end="138.8105"/>
+<tu id="q3ec6g.455" start="138.8105" end="139.5483" utt="40">ehm</tu>
+<sil id="q3ec6g.457" start="139.5483" end="140.0424"/>
+<tu id="q3ec6g.458" start="140.0424" end="140.1873" utt="40">go</tu>
+<tu id="q3ec6g.459" start="140.1873" end="140.3915" utt="40">to</tu>
+<tu id="q3ec6g.460" start="140.3915" end="140.4475" utt="40">the</tu>
+<tu id="q3ec6g.461" start="140.4475" end="140.6254" utt="40">edge</tu>
+<tu id="q3ec6g.462" start="140.6254" end="140.7012" utt="40">of</tu>
+<tu id="q3ec6g.463" start="140.7012" end="140.8165" utt="40">your</tu>
+<tu id="q3ec6g.464" start="140.8165" end="141.3434" utt="40">page</tu>
+<sil id="q3ec6g.466" start="141.3434" end="144.3276"/>
+<tu id="q3ec6g.467" start="144.3277" end="144.6505" utt="42">and</tu>
+<tu id="q3ec6g.468" start="144.6505" end="144.7822" utt="42">y--</tu>
+<noi id="q3ec6g.469" start="144.7822" end="144.9041" type="phongesture"/>
+<tu id="q3ec6g.470" start="144.9041" end="145.0292" utt="42">you</tu>
+<tu id="q3ec6g.471" start="145.0292" end="145.1181" utt="42">can</tu>
+<tu id="q3ec6g.472" start="145.1181" end="145.3388" utt="42">see</tu>
+<tu id="q3ec6g.473" start="145.3388" end="145.4903" utt="42">your</tu>
+<tu id="q3ec6g.474" start="145.4903" end="145.6616" utt="42">white</tu>
+<tu id="q3ec6g.475" start="145.6616" end="145.9719" utt="42">mountain</tu>
+<tu id="q3ec6g.476" start="145.9719" end="146.1168">is</tu>
+<tu id="q3ec6g.477" start="146.1169" end="146.4595" utt="42">above</tu>
+<tu id="q3ec6g.479" start="146.4595" end="146.8309" utt="42">okay</tu>
+<sil id="q3ec6g.481" start="146.8309" end="148.2176"/>
+<tu id="q3ec6g.482" start="148.2176" end="148.7545" utt="44">go</tu>
+<sil id="q3ec6g.483" start="148.7545" end="149.9304"/>
+<tu id="q3ec6g.484" start="149.9304" end="150.3730" utt="44">just</tu>
+<tu id="q3ec6g.486" start="150.3730" end="150.7506" utt="44">due</tu>
+<tu id="q3ec6g.487" start="150.7506" end="151.1096">left</tu>
+<tu id="q3ec6g.488" start="151.1096" end="151.2651" utt="44">of</tu>
+<tu id="q3ec6g.489" start="151.2651" end="151.3573" utt="44">the</tu>
+<tu id="q3ec6g.490" start="151.3573" end="151.5615" utt="44">white</tu>
+<tu id="q3ec6g.491" start="151.5615" end="151.8704" utt="44">mountain</tu>
+<tu id="q3ec6g.492" start="151.8705" end="152.1044" utt="44">and</tu>
+<tu id="q3ec6g.493" start="152.1044" end="152.3447" utt="44">keep</tu>
+<tu id="q3ec6g.494" start="152.3448" end="152.6281" utt="44">going</tu>
+<tu id="q3ec6g.495" start="152.6281" end="152.7828" utt="44">right</tu>
+<tu id="q3ec6g.496" start="152.7828" end="152.8948" utt="44">the</tu>
+<tu id="q3ec6g.497" start="152.8948" end="153.0496" utt="44">way</tu>
+<tu id="q3ec6g.498" start="153.0496" end="153.4350" utt="44">up</tu>
+<sil id="q3ec6g.500" start="153.4350" end="155.4904"/>
+<tu id="q3ec6g.501" start="155.4904" end="155.6598" utt="44">a--</tu>
+<tu id="q3ec6g.502" start="155.6598" end="155.8997" utt="44">d--</tu>
+<sil id="q3ec6g.503" start="155.8997" end="156.0833"/>
+<noi id="q3ec6g.504" start="156.0833" end="156.2325" type="phongesture"/>
+<tu id="q3ec6g.505" start="156.2325" end="156.8869" utt="44">until</tu>
+<sil id="q3ec6g.506" start="156.8869" end="158.0233"/>
+<tu id="q3ec6g.507" start="158.0233" end="158.6491" utt="44">about</tu>
+<sil id="q3ec6g.508" start="158.6491" end="160.0062"/>
+<noi id="q3ec6g.509" start="160.0062" end="160.1116" type="phongesture"/>
+<sil id="q3ec6g.510" start="160.1116" end="160.5365"/>
+<tu id="q3ec6g.511" start="160.5365" end="160.7744" utt="44">the</tu>
+<tu id="q3ec6g.512" start="160.7744" end="161.1136" utt="44">level</tu>
+<tu id="q3ec6g.513" start="161.1136" end="161.2421" utt="44">of</tu>
+<tu id="q3ec6g.514" start="161.2421" end="161.3277" utt="44">the</tu>
+<tu id="q3ec6g.515" start="161.3277" end="161.7921" utt="44">bottom</tu>
+<tu id="q3ec6g.516" start="161.7921" end="161.8876" utt="44">of</tu>
+<tu id="q3ec6g.517" start="161.8876" end="161.9758" utt="44">the</tu>
+<tu id="q3ec6g.518" start="161.9759" end="162.6149" utt="44">pyramid</tu>
+<sil id="q3ec6g.520" start="162.6149" end="167.8257"/>
+<tu id="q3ec6g.523" start="167.8257" end="168.3526" utt="46">past</tu>
+<sil id="q3ec6g.525" start="168.3527" end="168.5240"/>
+<tu id="q3ec6g.526" start="168.5240" end="168.8796" utt="46">ye--</tu>
+<sil id="q3ec6g.527" start="168.8796" end="169.8151"/>
+<tu id="q3ec6g.528" start="169.8151" end="170.5858" utt="46">yes</tu>
+<sil id="q3ec6g.530" start="170.5858" end="171.4488"/>
+<tu id="q3ec6g.531" start="171.4488" end="171.6464" utt="46">which</tu>
+<tu id="q3ec6g.532" start="171.6465" end="171.7453" utt="46">i</tu>
+<tu id="q3ec6g.533" start="171.7453" end="171.8968" utt="46">don't</tu>
+<tu id="q3ec6g.534" start="171.8968" end="172.2459" utt="46">have</tu>
+<noi id="q3ec6g.536" start="172.2459" end="172.3645" type="nonvocal"/>
+<sil id="q3ec6g.537" start="172.3645" end="172.9706"/>
+<noi id="q3ec6g.538" start="172.9706" end="173.3230" type="inbreath"/>
+<sil id="q3ec6g.539" start="173.3230" end="173.7512"/>
+<tu id="q3ec6g.540" start="173.7512" end="174.3013" utt="48">ehm</tu>
+<sil id="q3ec6g.542" start="174.3013" end="175.1050"/>
+<tu id="q3ec6g.543" start="175.1050" end="175.5234" utt="48">go</tu>
+<sil id="q3ec6g.544" start="175.5234" end="176.4225"/>
+<tu id="q3ec6g.547" start="176.4225" end="176.6344" utt="48">to</tu>
+<tu id="q3ec6g.548" start="176.6344" end="176.7123" utt="48">the</tu>
+<tu id="q3ec6g.549" start="176.7123" end="177.0351" utt="48">right</tu>
+<sil id="q3ec6g.551" start="177.0351" end="181.5608"/>
+<tu id="q3ec6g.552" start="181.5608" end="181.7485">at</tu>
+<sil id="q3ec6g.553" start="181.7486" end="181.9528"/>
+<tu id="q3ec6g.554" start="181.9528" end="182.0813" utt="50">go</tu>
+<tu id="q3ec6g.555" start="182.0813" end="182.2163">t--</tu>
+<sil id="q3ec6g.556" start="182.2163" end="182.4567"/>
+<tu id="q3ec6g.557" start="182.4567" end="182.6346" utt="52">go</tu>
+<tu id="q3ec6g.558" start="182.6346" end="182.8048" utt="52">to</tu>
+<tu id="q3ec6g.559" start="182.8048" end="182.8882" utt="52">the</tu>
+<tu id="q3ec6g.560" start="182.8882" end="183.1188">right</tu>
+<tu id="q3ec6g.561" start="183.1188" end="183.4152" utt="52">until</tu>
+<tu id="q3ec6g.562" start="183.4152" end="183.5524" utt="52">the</tu>
+<tu id="q3ec6g.563" start="183.5525" end="183.7842" utt="52">edge</tu>
+<tu id="q3ec6g.564" start="183.7842" end="183.8435" utt="52">of</tu>
+<tu id="q3ec6g.565" start="183.8435" end="183.9686" utt="52">the</tu>
+<tu id="q3ec6g.566" start="183.9686" end="184.3869" utt="52">pyramid</tu>
+<tu id="q3ec6g.568" start="184.3869" end="184.6116" utt="52">and</tu>
+<tu id="q3ec6g.569" start="184.6116" end="184.9930" utt="52">then</tu>
+<sil id="q3ec6g.570" start="184.9930" end="185.3730"/>
+<tu id="q3ec6g.571" start="185.3730" end="185.7209" utt="52">duck</tu>
+<tu id="q3ec6g.572" start="185.7209" end="186.0898" utt="52">over</tu>
+<tu id="q3ec6g.573" start="186.0898" end="186.1952" utt="52">the</tu>
+<tu id="q3ec6g.574" start="186.1952" end="186.7156" utt="52">pyramid</tu>
+<sil id="q3ec6g.576" start="186.7157" end="189.4726"/>
+<tu id="q3ec6g.577" start="189.4726" end="189.6999" utt="54">and</tu>
+<tu id="q3ec6g.578" start="189.6999" end="190.0226" utt="54">come</tu>
+<tu id="q3ec6g.579" start="190.0226" end="190.4212" utt="54">down</tu>
+<sil id="q3ec6g.580" start="190.4212" end="190.4574"/>
+<noi id="q3ec6g.581" start="190.4574" end="190.7143" type="inbreath"/>
+<tu id="q3ec6g.582" start="190.7143" end="190.9482" utt="54">and</tu>
+<sil id="q3ec6g.583" start="190.9482" end="191.0437"/>
+<tu id="q3ec6g.584" start="191.0437" end="191.3731" utt="54">under</tu>
+<tu id="q3ec6g.585" start="191.3731" end="191.4950" utt="54">the</tu>
+<tu id="q3ec6g.586" start="191.4950" end="192.0912" utt="54">pyramid</tu>
+<sil id="q3ec6g.587" start="192.0912" end="193.7578"/>
+<tu id="q3ec6g.588" start="193.7578" end="194.0444" utt="56">just</tu>
+<tu id="q3ec6g.589" start="194.0444" end="194.0708" utt="56">u--</tu>
+<sil id="q3ec6g.590" start="194.0708" end="194.4725"/>
+<tu id="q3ec6g.591" start="194.4726" end="194.9246" utt="56">mmhmm</tu>
+<tu id="q3ec6g.593" start="194.9246" end="195.4317" utt="56">until</tu>
+<tu id="q3ec6g.594" start="195.4318" end="195.5998" utt="56">the</tu>
+<tu id="q3ec6g.595" start="195.5998" end="196.0535" utt="56">edge</tu>
+<noi id="q3ec6g.596" start="196.0536" end="196.1590" type="lipsmack"/>
+<tu id="q3ec6g.597" start="196.1590" end="196.5411" utt="56">of</tu>
+<sil id="q3ec6g.598" start="196.5411" end="196.7717"/>
+<tu id="q3ec6g.599" start="196.7717" end="196.8605" utt="56">the</tu>
+<tu id="q3ec6g.600" start="196.8606" end="197.3448" utt="56">pyramid</tu>
+<sil id="q3ec6g.602" start="197.3448" end="199.2980"/>
+<tu id="q3ec6g.603" start="199.2980" end="199.6445" utt="58">now</tu>
+<tu id="q3ec6g.604" start="199.6445" end="199.8748" utt="58">you</tu>
+<tu id="q3ec6g.605" start="199.8748" end="200.0727" utt="58">have</tu>
+<tu id="q3ec6g.606" start="200.0727" end="200.1847" utt="58">a</tu>
+<tu id="q3ec6g.607" start="200.1847" end="200.4482" utt="58">remote</tu>
+<tu id="q3ec6g.608" start="200.4482" end="200.9811" utt="58">village</tu>
+<sil id="q3ec6g.609" start="200.9811" end="201.1199"/>
+<tu id="q3ec6g.610" start="201.1199" end="201.2097" utt="58">but</tu>
+<tu id="q3ec6g.611" start="201.2097" end="201.3157" utt="58">you</tu>
+<tu id="q3ec6g.612" start="201.3157" end="201.5117" utt="58">don't</tu>
+<tu id="q3ec6g.613" start="201.5117" end="201.6997" utt="58">have</tu>
+<tu id="q3ec6g.614" start="201.6997" end="201.7696" utt="58">a</tu>
+<tu id="q3ec6g.615" start="201.7697" end="202.1377" utt="58">cobbled</tu>
+<tu id="q3ec6g.616" start="202.1377" end="202.3902" utt="58">street</tu>
+<tu id="q3ec6g.618" start="202.3902" end="202.5133" utt="58">the</tu>
+<tu id="q3ec6g.619" start="202.5133" end="202.7653" utt="58">cobbled</tu>
+<tu id="q3ec6g.620" start="202.7653" end="203.0153" utt="58">street</tu>
+<tu id="q3ec6g.621" start="203.0153" end="203.0993" utt="58">is</tu>
+<tu id="q3ec6g.623" start="203.0993" end="203.5925" utt="58">directly</tu>
+<tu id="q3ec6g.624" start="203.5925" end="203.9705" utt="58">above</tu>
+<tu id="q3ec6g.625" start="203.9705" end="204.0805" utt="58">the</tu>
+<tu id="q3ec6g.626" start="204.0805" end="204.3805" utt="58">remote</tu>
+<tu id="q3ec6g.627" start="204.3805" end="204.8788" utt="58">village</tu>
+<sil id="q3ec6g.629" start="204.8788" end="206.3050"/>
+<tu id="q3ec6g.630" start="206.3050" end="207.0000" utt="60">ehm</tu>
+<sil id="q3ec6g.632" start="207.0000" end="211.2886"/>
+<tu id="q3ec6g.633" start="211.2886" end="211.4474">to</tu>
+<tu id="q3ec6g.634" start="211.4474" end="211.6022" utt="62">the</tu>
+<tu id="q3ec6g.635" start="211.6022" end="212.2149" utt="62">left-hand</tu>
+<tu id="q3ec6g.636" start="212.2149" end="212.5837">side</tu>
+<noi id="q3ec6g.638" start="212.5837" end="212.7345" type="inbreath"/>
+<tu id="q3ec6g.639" start="212.7346" end="212.9816">if you</tu>
+<tu id="q3ec6g.641" start="212.9816" end="213.1898" utt="62">could</tu>
+<tu id="q3ec6g.642" start="213.1898" end="213.3940" utt="62">take</tu>
+<tu id="q3ec6g.643" start="213.3941" end="213.5259" utt="62">a</tu>
+<tu id="q3ec6g.644" start="213.5259" end="213.8479" utt="62">line</tu>
+<tu id="q3ec6g.646" start="213.8479" end="214.1147" utt="62">due</tu>
+<tu id="q3ec6g.647" start="214.1147" end="214.6351" utt="62">south</tu>
+<sil id="q3ec6g.649" start="214.6351" end="215.4355"/>
+<tu id="q3ec6g.650" start="215.4355" end="215.7879" utt="62">eh</tu>
+<tu id="q3ec6g.652" start="215.7879" end="216.1081" utt="62">and</tu>
+<tu id="q3ec6g.653" start="216.1081" end="216.4935" utt="62">under</tu>
+<tu id="q3ec6g.654" start="216.4935" end="216.6483" utt="62">the</tu>
+<tu id="q3ec6g.655" start="216.6483" end="216.9382" utt="62">remote</tu>
+<tu id="q3ec6g.656" start="216.9382" end="217.3532" utt="62">village</tu>
+<sil id="q3ec6g.658" start="217.3532" end="221.0387"/>
+<noi id="q3ec6g.658.1" start="221.0387" end="221.1001" type="lipsmack"/>
+<sil id="q3ec6g.658.2" start="221.1001" end="222.4875"/>
+<tu id="q3ec6g.659" start="222.4875" end="222.7978" utt="64">so</tu>
+<tu id="q3ec6g.660" start="222.7978" end="222.9552" utt="64">you</tu>
+<tu id="q3ec6g.661" start="222.9552" end="223.1528" utt="64">a--</tu>
+<sil id="q3ec6g.662" start="223.1529" end="223.2517"/>
+<noi id="q3ec6g.663" start="223.2517" end="223.3110" type="phongesture"/>
+<sil id="q3ec6g.664" start="223.3110" end="223.4724"/>
+<tu id="q3ec6g.665" start="223.4724" end="223.6997" utt="64">you've</tu>
+<sil id="q3ec6g.667" start="223.6997" end="223.8116"/>
+<tu id="q3ec6g.668" start="223.8116" end="224.0059" utt="64">you've</tu>
+<tu id="q3ec6g.670" start="224.0060" end="224.2464" utt="64">come</tu>
+<tu id="q3ec6g.671" start="224.2464" end="224.3782" utt="64">due</tu>
+<tu id="q3ec6g.672" start="224.3782" end="224.7273" utt="64">south</tu>
+<tu id="q3ec6g.673" start="224.7273" end="224.8733" utt="64">and</tu>
+<tu id="q3ec6g.674" start="224.8733" end="225.0413" utt="64">then</tu>
+<tu id="q3ec6g.675" start="225.0413" end="225.1433" utt="64">you've</tu>
+<tu id="q3ec6g.677" start="225.1433" end="225.3637" utt="64">come</tu>
+<tu id="q3ec6g.678" start="225.3637" end="225.7293" utt="64">east</tu>
+<sil id="q3ec6g.679" start="225.7294" end="225.9160"/>
+<tu id="q3ec6g.680" start="225.9160" end="226.0284" utt="66">to</tu>
+<tu id="q3ec6g.681" start="226.0284" end="226.1305" utt="66">the</tu>
+<tu id="q3ec6g.682" start="226.1305" end="226.3380" utt="66">right</tu>
+<tu id="q3ec6g.683" start="226.3380" end="226.4269" utt="66">of</tu>
+<tu id="q3ec6g.684" start="226.4269" end="226.4829" utt="66">the</tu>
+<tu id="q3ec6g.685" start="226.4829" end="226.8880" utt="66">page</tu>
+<sil id="q3ec6g.687" start="226.8881" end="230.1936"/>
+<tu id="q3ec6g.688" start="230.1936" end="230.5145" utt="68">go</tu>
+<tu id="q3ec6g.689" start="230.5145" end="230.7813" utt="68">about</tu>
+<tu id="q3ec6g.690" start="230.7813" end="230.9295" utt="68">an</tu>
+<tu id="q3ec6g.691" start="230.9296" end="231.0811" utt="68">inch</tu>
+<tu id="q3ec6g.693" start="231.0811" end="231.4731" utt="68">past</tu>
+<tu id="q3ec6g.694" start="231.4731" end="231.6212" utt="68">it</tu>
+<sil id="q3ec6g.696" start="231.6213" end="233.3439"/>
+<tu id="q3ec6g.697" start="233.3439" end="233.6832" utt="70">and</tu>
+<tu id="q3ec6g.698" start="233.6832" end="233.9795" utt="70">"x"</tu>
+<tu id="q3ec6g.699" start="233.9796" end="234.2759" utt="70">marks</tu>
+<tu id="q3ec6g.700" start="234.2759" end="234.3079" utt="70">the</tu>
+<tu id="q3ec6g.701" start="234.3079" end="234.5922" utt="70">spot</tu>
+</nite:root>
+
