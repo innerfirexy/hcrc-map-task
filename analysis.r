@@ -26,6 +26,12 @@ plot(p)
 dt = data.table(df)
 setkey(dt, observation)
 
+# save to RDS
+saveRDS(dt, 'dt.rds')
+# read from RDS
+dt = readRDS('dt.rds')
+
+
 dt_len = dt[, .(convLen = max(utterID)), by = observation]
 # the survey shows only 7 conversations have fewer than 100 sentences
 
@@ -79,16 +85,28 @@ plot(p.bfAdj)
 
 ### explore how the convergence of entropy is correlated with resultSize
 setkey(dt, observation, topicID, who, topicRole, inTopicID)
-dt_entDiff = dt[topicRole == 'responder', {
-        # m = lm(ent ~ log(inTopicID), .SD)
-        # .(coef = m$coefficients[2], rs = resultSize[1])
+dt.coef = dt[, {
+        m1 = lm(tokenNum ~ inTopicID, .SD[topicRole == 'initiator',])
+        m2 = lm(tokenNum ~ inTopicID, .SD[topicRole == 'responder',])
+        .(coef1 = abs(m1$coefficients[2]), coef2 = abs(m2$coefficients[2]))
 
         # res = t.test(.SD[topicRole == 'initiator', ent,], .SD[topicRole == 'responder', ent,])
         # res = t.test(.SD[who == 'g', ent,], .SD[who == 'f', ent,])
         # .(coef = abs(res$statistic), rs = resultSize[1])
 
-        .(coef = ent[2] - ent[1], rs = resultSize[1])
-    }, by = .(observation, topicID)]
+        # .(coef = ent[2] - ent[1], rs = resultSize[1])
+    }, by = .(observation)]
 
-cor.test(dt_entDiff$coef, dt_entDiff$rs)
-summary(lm(log(rs) ~ coef, dt_entDiff))
+# read moves_and_deviation.csv
+dt2 = fread('moves_and_deviation.csv')
+setnames(dt2, "Observation", "observation")
+setnames(dt2, 'path dev', 'pathdev')
+setkey(dt2, observation)
+
+# join dt2 to dt1
+dt.coef = dt.coef[dt2[, .(observation, pathdev)]]
+
+# test
+cor.test(dt.coef$coef1, dt.coef$pathdev)
+cor.test(dt.coef$coef2, dt.coef$pathdev)
+cor.test(dt.coef$coef1, dt.coef$coef2)
