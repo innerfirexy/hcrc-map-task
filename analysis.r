@@ -116,6 +116,15 @@ cor.test(dt.coef$coef1, dt.coef$coef2)
 ## join dt and dt2
 dt3 = dt[dt2[, .(observation, pathdev)], nomatch = 0]
 
+# the composition of initiator vs responder
+table(dt3[topicRole == 'initiator', who])
+#    f    g
+# 2837 9251
+table(dt3[topicRole == 'responder', who])
+# f    g
+# 6983 3242
+
+
 # the correlation between overall entropy level and pathdev
 cor.test(dt3$ent, dt3$pathdev) # insig
 cor.test(dt3[topicRole == 'initiator', ent], dt3[topicRole == 'initiator', pathdev]) # r = 0.028, t = 1.999, p-value = 0.04566*
