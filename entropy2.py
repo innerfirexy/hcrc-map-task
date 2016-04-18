@@ -1,3 +1,4 @@
+#/usr/local/bin/python3
 # Train a relatively bigger lm from Switchboard
 # and compute the cross-entropy of sentences in map
 # Yang Xu
@@ -25,14 +26,26 @@ def db_conn(db_name):
 def read_swbd():
     conn = db_conn('swbd')
     cur = conn.cursor()
-
     query = 'SELECT rawWord FROM entropy'
     cur.execute(query)
     sents = [t[0].stirp().split() for t in cur.fetchall()]
-
     return sents
+
+# read train set from file
+def read_train_file(filename):
+    """
+    filename: the text file that contains sentences for training, one sentence in a line
+    """
+    with open(filename, 'r') as fr:
+        sents = []
+        for line in fr:
+            s = line.strip().split()
+            sents.append(s)
+        return sents
 
 
 # main
 if __name__ == '__main__':
-    sents = read_swbd()
+    sents = read_train_file('train.txt')
+    # train the model
+    lm = NgramModel(3, sents)
