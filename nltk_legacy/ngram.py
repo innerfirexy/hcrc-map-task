@@ -133,7 +133,7 @@ class NgramModel(ModelI):
         # we need to keep track of the number of word types we encounter
         vocabulary = set()
         for sent in train:
-            raw_ngrams = ngrams(sent, n, pad_left, pad_right, pad_symbol='')
+            raw_ngrams = ngrams(sent, n, pad_left, pad_right)
             for ngram in raw_ngrams:
                 self._ngrams.add(ngram)
                 context = tuple(ngram[:-1])
