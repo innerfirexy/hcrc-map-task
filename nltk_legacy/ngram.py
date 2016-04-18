@@ -187,7 +187,7 @@ class NgramModel(ModelI):
                 self._backoff_alphas[ctxt] = alpha_ctxt
 
     def _words_following(self, context, cond_freq_dist):
-        for ctxt, fd in cond_freq_dist.iteritems():
+        for ctxt, fd in cond_freq_dist.items():
             if ctxt == context:
                 for word in fd.keys():
                     yield word
